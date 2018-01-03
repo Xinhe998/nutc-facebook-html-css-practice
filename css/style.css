@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(233, 235, 238);
+}
+
+#navbar {
+    width: 100%;
+    height: 42px;
+    top: 0;
+    left: 0;
+    margin: 0;
+    position: fixed;
+    background-color: rgb(59, 89, 152);
+    z-index: 1;
+}
+
+#contain {
+    position: relative;
+    width: 1000px;
+    top: 42px;
+    margin: 0;
+    z-index: 0;
+}
+
+
+/* #wrapper {
+    position: relative;
+    width: 100%;
+} */
+
+#left_profile {
+    position: absolute;
+    width: 250px;
+    height: 800px;
+    top: 0;
+    left: 50px;
+    background-color: aqua;
+}
+
+#main_post {
+    position: absolute;
+    width: 480px;
+    height: 800px;
+    top: 0px;
+    left: 310px;
+    background-color: black;
+}
+
+#right_ad {
+    position: absolute;
+    width: 300px;
+    height: 800px;
+    top: 0px;
+    left: 800px;
+    background-color: blue;
+}
+
+#friends {
+    position: fixed;
+    width: 200px;
+    /* height: 100%; */
+    height: 800px;
+    top: 42px;
+    right: 0;
+    margin-right: 0px;
+    background-color: rgb(233, 235, 238);
+    border-color: #B8B8B8;
+    border-width: 0 0 0 1px;
+    border-style: solid;
+}
+
+#messanger {
+    position: fixed;
+    width: 180px;
+    height: 25px;
+    right: 250px;
+    bottom: 0px;
+    background-color: rgb(246, 247, 249);
+}
