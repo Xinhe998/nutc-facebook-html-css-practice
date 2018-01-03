@@ -87,9 +87,8 @@ body {
 
 #messanger {
     position: fixed;
-    width: 180px;
-    height: 25px;
-    right: 250px;
+    width: 106px;
+    height: 28px;
+    right: 300px;
     bottom: 0px;
-    background-color: rgb(246, 247, 249);
 }
