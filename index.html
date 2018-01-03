@@ -9,8 +9,7 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <script language="JavaScript" type="text/JavaScript">
-        x=1; function change(){ x++; if(x%2==0){ document.getElementById("p").src="assets/2018-01-03_173351.png"; } else { document.getElementById("p").src="assets/2018-01-03_140055.png"; } }
-
+        x=1; function change(){ x++; if(x%2==0){ document.getElementById("p").src="assets/2018-01-03_173351.png"; } else { document.getElementById("p").src="assets/2018-01-03_140055.png"; } } ;
     </script>
 
 </head>
@@ -22,7 +21,7 @@
         <img id="navbar_searchbar" src="assets/2018-01-03_115554.png">
         <img id="navbar_button" src="assets/2018-01-03_133145.png">
     </div>
-
+    <p id="aa">123</p>
     <div id="wrapper">
 
         <div id="left_profile">
@@ -44,17 +43,16 @@
         </div>
 
         <div id="friends">
-            <img src="assets/2018-01-03_134846-vert.png">
+            <img id="firends_pic" src="assets/2018-01-03_134846-vert.png">
+        </div>
+        <div id="cover">
+            <img id="firends_pic" src="assets/2018-01-03_194047.png">
         </div>
 
     </div>
 
     <div id="messanger">
-        <button id="messager_button" onclick="change()">
-            <img id="p"  src="assets/2018-01-03_140055.png">
-            <img id="p1" onclick="changeback()" src="assets/2018-01-03_133145.png" hidden="true">
-        </button>
-
+        <img id="p" onclick="change()" src="assets/2018-01-03_140055.png">
     </div>
 </body>
 
