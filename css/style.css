@@ -45,19 +45,19 @@ body {
 
 #left_profile {
     position: absolute;
-    width: 250px;
+    width: 200px;
     height: 800px;
     top: 0;
     left: 50px;
-    background-color: aqua;
+    background-color: rgb(233, 235, 238);
 }
 
 #main_post {
     position: absolute;
-    width: 480px;
+    width: 530px;
     height: 800px;
     top: 0px;
-    left: 310px;
+    left: 260px;
     background-color: black;
 }
 
