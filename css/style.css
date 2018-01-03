@@ -5,7 +5,6 @@
     position: fixed;
     top: 0;
     left: 0;
-    right: 0;
 }
 
 #top_left {
@@ -17,4 +16,12 @@
 #top_right {
     position: fixed;
     right: 0;
+}
+
+#container{
+	position: absolute;
+	width: 100%;
+	background: #E0E2E5;
+	top: 50px;
+	left: 0;
 }
