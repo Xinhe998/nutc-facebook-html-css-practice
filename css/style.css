@@ -97,8 +97,14 @@ body {
 
 #messanger {
     position: fixed;
-    width: 106px;
-    height: 28px;
+    width: 261px;
+    height: 334px;
     right: 300px;
     bottom: 0px;
+}
+
+#p {
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
