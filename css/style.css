@@ -20,24 +20,40 @@
 
 #container{
 	position: absolute;
-	width: 100%;
+	width: 85%;
 	height: 100%;
 	background: #E0E2E5;
 	top: 50px;
 	left: 0;
-	overflow: scroll;
+	overflow: auto;
 }
 
 .left{
 	width: 15%;
+	position: fixed;
+	top: 60px;
+	left: 2.5%;
+}
+
+.middle{
+	width: 45%;
 	position: absolute;
 	top: 10px;
-	left: 20px;
+	left: 22%;
 }
 
 .right{
 	width: 20%;
-	position: absolute;
-	top: 10px;
+	position: fixed;
+	top: 60px;
 	right: 20%;
 }
+
+.chatRoom{
+	width: 15%;
+	top: 50px;
+	right: 0;
+	position: absolute;
+	overflow: scroll;
+}
+
