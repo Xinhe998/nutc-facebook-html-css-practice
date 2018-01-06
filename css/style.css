@@ -10,7 +10,7 @@ html,body {
 
 #Header {
     width: 100%;
-    height: 6%;
+    height: 7%;
     background: rgb(66, 103, 178);
     position: fixed;
     top: 0;
@@ -18,38 +18,63 @@ html,body {
     z-index: 2;
 }
 
-#Header .header_img {
-    margin: 0 auto;
+#Header .header_logo {
+    padding-top: 0.5%;
+    margin-left: 10%;
+}
+
+#Header .header_search {
+    padding-top: 0.5%;
+}
+
+#Header .header_bar {
+    padding-left: 5%;
 }
 
 #Left {
-    width: 20%;
-    height: 100%;
+    width: 15%;
     position: fixed;
-    left: 0;
-    top: 6%;
+    left: 5%;
+    top: 9%;
+}
+
+#Left img {
+    margin-right: 0;
 }
 
 #ItemBlock {
-    width: 40%;
-    height: 100%;
+    width: 36%;
     position: relative;
-    left: 20%;
-    top: 6%;
+    left: 22%;
+    top: 9%;
+}
+
+#ItemBlock img {
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#ItemBlock .itemblock_1 {
+    margin-top: 12%;
 }
 
 #Message {
     width: 20%;
-    height: 100%;
     position: fixed;
-    right: 20%;
-    top: 6%;
+    left: 60%;
+    top: 9%;
 }
 
 #Chat {
-    width: 20%;
-    height: 100%;
+    width: 15%;
     position: fixed;
+    top: 7%;
     right: 0;
-    top: 6%;
+}
+
+#Chat .chat-search {
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
