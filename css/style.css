@@ -73,3 +73,25 @@ body{
 	right: 20%;
 	background: #FFF;
 }
+
+@keyframes openMsg{
+  from{bottom: -40%}
+  to{bottom: 0%}
+}
+
+@keyframes hideMsg{
+  from{bottom: 0%}
+  to{bottom: -40%}
+}
+
+.msg.activeMsgOpen{
+    animation-name: openMsg;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+
+ .msg.activeMsgHide{
+    animation-name: hideMsg;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+ }
