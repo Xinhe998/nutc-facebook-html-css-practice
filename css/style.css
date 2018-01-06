@@ -1,5 +1,5 @@
-body{
-	overflow: hidden;
+body {
+    overflow: hidden;
 }
 
 #top {
@@ -22,76 +22,84 @@ body{
     right: 0;
 }
 
-#container{
-	position: absolute;
-	width: 100%;
-	height: 93%;
-	background: #E0E2E5;
-	top: 7%;
-	left: 0;
-	overflow-y: scroll;
+#container {
+    position: absolute;
+    width: 100%;
+    height: 93%;
+    background: #E0E2E5;
+    top: 7%;
+    left: 0;
+    overflow-y: scroll;
 }
 
-.left{
-	width: 14%;
-	height: 100%;
-	position: fixed;
-	top: 8%;
-	left: 4.5%;
+.left {
+    width: 14%;
+    height: 100%;
+    position: fixed;
+    top: 8%;
+    left: 4.5%;
 }
 
-.middle{
-	width: 45%;
-	height: 100%;
-	position: absolute;
-	top: 10px;
-	left: 19%;
+.middle {
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    top: 10px;
+    left: 19%;
 }
 
-.right{
-	width: 20%;
-	height: 100%;
-	position: absolute;
-	top: 10px;
-	right: 15%;
+.right {
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    top: 10px;
+    right: 15%;
 }
 
-.chatRoom{
-	width: 15%;
-	height: 100%;
-	top: 7.5%;
-	right: 0;
-	position: absolute;
-	overflow-y:auto;
+.chatRoom {
+    width: 15%;
+    height: 100%;
+    top: 7.5%;
+    right: 0;
+    position: absolute;
+    overflow-y: auto;
 }
 
-.msg{
-	width: 20%;
-	height: 50%;
-	position: fixed;
-	bottom: 0;
-	right: 20%;
-	background: #FFF;
+.msg {
+    width: 20%;
+    height: 50%;
+    position: fixed;
+    bottom: 0;
+    right: 20%;
+    background: #FFF;
 }
 
-@keyframes openMsg{
-  from{bottom: -40%}
-  to{bottom: 0%}
+@keyframes openMsg {
+    from {
+        bottom: -46%
+    }
+    to {
+        bottom: 0%
+    }
 }
 
-@keyframes hideMsg{
-  from{bottom: 0%}
-  to{bottom: -40%}
+@keyframes hideMsg {
+    from {
+        bottom: 0%
+    }
+    to {
+        bottom: -46%
+    }
 }
 
-.msg.activeMsgOpen{
+.msg.activeMsgOpen {
     animation-name: openMsg;
     animation-duration: 2s;
     animation-fill-mode: forwards;
-  }
+}
 
- .msg.activeMsgHide{
+.msg.activeMsgHide {
     animation-name: hideMsg;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
- }
+}
