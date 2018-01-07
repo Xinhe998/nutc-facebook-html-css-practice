@@ -4,7 +4,7 @@ body {
 }
 
 
-/*navbar*/
+/* navbar */
 
 #navbar {
     width: 100%;
@@ -36,123 +36,64 @@ body {
     left: 60%;
 }
 
-@media screen and (max-width: 1000px) {
-    #wrapper {
-        position: relative;
-        top: 42px;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        z-index: 0;
-    }
-    #left_profile {
-        position: absolute;
-        width: 19%;
-        height: 800px;
-        top: 0;
-        left: 4%;
-    }
-    #main_post {
-        position: absolute;
-        width: 49%;
-        height: 800px;
-        top: 0;
-        left: 24%;
-    }
-    #right_ad {
-        position: absolute;
-        width: 29%;
-        height: 800px;
-        top: 0px;
-        left: 74%;
-    }
+
+/* wrapper */
+
+#wrapper {
+    position: relative;
+    top: 42px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: 0;
 }
 
-@media screen and (min-width: 1001px) {
-    #wrapper {
-        position: relative;
-        top: 42px;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        z-index: 0;
-    }
-    #left_profile {
-        position: absolute;
-        width: 200px;
-        height: 800px;
-        top: 0;
-        left: 50px;
-    }
-    #main_post {
-        position: absolute;
-        width: 500px;
-        height: 800px;
-        top: 0;
-        left: 260px;
-    }
-    #right_ad {
-        position: absolute;
-        width: 300px;
-        max-width: 300px;
-        height: 800px;
-        top: 0px;
-        left: 770px;
-    }
+#left_profile {
+    position: absolute;
+    height: 800px;
+    top: 0;
 }
 
-@media screen and (min-width: 1450px) {
-    #wrapper {
-        position: relative;
-        top: 42px;
-        width: 80%;
-        margin: 0 auto;
-        padding: 0;
-        z-index: 0;
-    }
-    #friends {
-        position: fixed;
-        width: 220px;
-        height: 100%;
-        top: 42px;
-        right: 0;
-        margin-right: 0px;
-        border-color: #B8B8B8;
-        border-width: 0 0 0 1px;
-        border-style: solid;
-        overflow: scroll;
-    }
-    #cover {
-        opacity: 0;
-    }
-    #navbar_icon {
-        position: absolute;
-        top: 5px;
-        left: 200px;
-        color: white;
-    }
-    #navbar_searchbar {
-        position: absolute;
-        top: 8px;
-        left: 240px;
-        width: auto;
-    }
+#main_post {
+    position: absolute;
+    height: 800px;
+    top: 0;
 }
 
-@media screen and (max-width: 1449px) {
-    #friends {
-        opacity: 0;
-    }
-    #cover {
-        opacity: 1;
-        z-index: 2;
-        position: fixed;
-        width: 274px;
-        height: 27px;
-        bottom: 0px;
-        right: 20px;
-    }
+#right_ad {
+    position: absolute;
+    height: 800px;
+    top: 0px;
 }
+
+
+/* friends */
+
+#friends {
+    position: fixed;
+    width: 220px;
+    height: 100%;
+    top: 42px;
+    right: 0;
+    margin-right: 0px;
+    border-color: #B8B8B8;
+    border-width: 0 0 0 1px;
+    border-style: solid;
+    overflow: scroll;
+}
+
+#friends_cover {
+    opacity: 1;
+    z-index: 2;
+    position: fixed;
+    width: 274px;
+    height: 27px;
+    bottom: 0px;
+    right: 20px;
+}
+
+
+/* messanger */
 
 #messanger {
     position: fixed;
@@ -162,10 +103,65 @@ body {
     bottom: 0px;
 }
 
-#p {
-    position: absolute;
-    right: 0;
-    bottom: 0;
+
+/* RWD */
+
+@media screen and (max-width: 1000px) {
+    #left_profile {
+        width: 19%;
+        left: 4%;
+    }
+    #main_post {
+        width: 49%;
+        left: 24%;
+    }
+    #right_ad {
+        width: 29%;
+        left: 74%;
+    }
+}
+
+@media screen and (min-width: 1001px) {
+    #left_profile {
+        width: 200px;
+        left: 50px;
+    }
+    #main_post {
+        width: 500px;
+        left: 260px;
+    }
+    #right_ad {
+        width: 300px;
+        left: 770px;
+    }
+}
+
+@media screen and (min-width: 1450px) {
+    #wrapper {
+        width: 80%;
+        margin: 0 auto;
+    }
+    #friends {
+        opacity: 1;
+    }
+    #friends_cover {
+        opacity: 0;
+    }
+    #navbar_icon {
+        left: 200px;
+    }
+    #navbar_searchbar {
+        left: 240px;
+    }
+}
+
+@media screen and (max-width: 1449px) {
+    #friends {
+        opacity: 0;
+    }
+    #friends_cover {
+        opacity: 1;
+    }
 }
 
 
@@ -188,4 +184,10 @@ body {
     border: 0px;
     border-radius: 5px;
     margin-bottom: 10px;
+}
+
+#messanger_img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
