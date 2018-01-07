@@ -148,10 +148,13 @@ body {
         opacity: 0;
     }
     #navbar_icon {
-        left: 200px;
+        left: 250px;
     }
     #navbar_searchbar {
-        left: 240px;
+        left: 290px;
+    }
+    #navbar_button {
+        left: 50%;
     }
 }
 
