@@ -60,7 +60,7 @@ body {
     top: 0;
 }
 
-#right_ad {
+#right_info {
     position: absolute;
     height: 800px;
     top: 0px;
@@ -80,6 +80,7 @@ body {
     border-width: 0 0 0 1px;
     border-style: solid;
     overflow: scroll;
+    margin-bottom: 20px;
 }
 
 #friends_cover {
@@ -115,7 +116,7 @@ body {
         width: 49%;
         left: 24%;
     }
-    #right_ad {
+    #right_info {
         width: 29%;
         left: 74%;
     }
@@ -130,7 +131,7 @@ body {
         width: 500px;
         left: 260px;
     }
-    #right_ad {
+    #right_info {
         width: 300px;
         left: 770px;
     }
@@ -176,7 +177,8 @@ body {
 }
 
 .img {
-    width: 100%;
+    width: auto;
+    max-width: 100%;
     border: 0px;
     border-radius: 5px;
     margin-bottom: 10px;
