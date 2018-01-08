@@ -175,14 +175,7 @@ body {
     border: 0px;
 }
 
-.post_img {
-    width: 100%;
-    border: 0px;
-    border-radius: 5px;
-    margin-bottom: 10px;
-}
-
-.ad_img {
+.img {
     width: 100%;
     border: 0px;
     border-radius: 5px;
