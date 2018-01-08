@@ -80,7 +80,6 @@ body {
     border-width: 0 0 0 1px;
     border-style: solid;
     overflow: scroll;
-    margin-bottom: 20px;
 }
 
 #friends_cover {
@@ -142,12 +141,6 @@ body {
         width: 80%;
         margin: 0 auto;
     }
-    #friends {
-        opacity: 1;
-    }
-    #friends_cover {
-        opacity: 0;
-    }
     #navbar_icon {
         left: 250px;
     }
@@ -159,7 +152,16 @@ body {
     }
 }
 
-@media screen and (max-width: 1449px) {
+@media screen and (min-width: 1300px) {
+    #friends {
+        opacity: 1;
+    }
+    #friends_cover {
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 1299px) {
     #friends {
         opacity: 0;
     }
@@ -182,6 +184,11 @@ body {
     border: 0px;
     border-radius: 5px;
     margin-bottom: 10px;
+}
+
+#firend_img {
+    width: auto;
+    margin-top: 20px;
 }
 
 #messanger_img {
