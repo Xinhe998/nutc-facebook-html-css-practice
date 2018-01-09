@@ -1,0 +1,50 @@
+
+#header{
+  width: 100%;
+  height: 40px;
+  background-color: rgba(66, 103, 178,1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+img.one{
+    position:absolute;
+    left: 50px;
+    height: 40px;
+}
+
+img.two{
+    position: absolute;
+    left: 800px;
+    height: 40px;
+}
+
+body{
+    background-color: rgba(233, 235, 238, 1);
+}
+#content{
+    width: 100%;
+    height:1000px;
+    position:relative;
+    top:40px;
+}
+
+.left{
+    position: relative;
+    left: 100px;
+    margin: 0px;
+    width:200px;
+    height:900px;
+}
+
+img.leftone{
+    position: relative;
+    top:0;
+}
+img.lefttwo{
+    position: relative;
+    top:-10px;
+}
