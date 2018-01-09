@@ -104,3 +104,12 @@ img.lefttwo{
     right:0;
     width:240px;
 }
+
+#message{
+    position: fixed;
+    width:100px;
+    height:30px;
+    bottom: -5px;
+    right:315px;
+}
+
