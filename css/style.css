@@ -93,7 +93,14 @@ img.lefttwo{
 }
 .friend img{
   position: relative;
-  top: 0;
+  top: 10px;
   right:0;
   width:240px;
+}
+
+.friend .search{
+    position: fixed;
+    bottom: 0;
+    right:0;
+    width:240px;
 }
