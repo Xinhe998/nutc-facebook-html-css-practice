@@ -1,4 +1,6 @@
-
+body{
+    background-color: rgba(233, 235, 238, 1);
+}
 #header{
   width: 100%;
   height: 40px;
@@ -22,22 +24,21 @@ img.two{
     height: 40px;
 }
 
-body{
-    background-color: rgba(233, 235, 238, 1);
-}
 #content{
     width: 100%;
     height:1000px;
     position:relative;
     top:40px;
+  
 }
 
 .left{
     position: relative;
-    left: 100px;
+    left: 50px;
     margin: 0px;
     width:200px;
     height:900px;
+    float: left;
 }
 
 img.leftone{
@@ -47,4 +48,32 @@ img.leftone{
 img.lefttwo{
     position: relative;
     top:-10px;
+}
+
+.main{
+    position: relative;
+    left:50px;
+    margin: 0;
+    width:500px;
+    height:900px;
+    float: left;
+}
+
+.main img
+{
+ position: relative;
+ top:0;
+ width:500px;
+}
+
+
+
+
+
+
+
+
+
+.right{
+    float: left;
 }
