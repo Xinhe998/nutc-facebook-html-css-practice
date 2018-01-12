@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+}
+
+#navbar-wrap{
+    margin: 0;
+    position: fixed;
+    height: 42px;
+    width: 100%;
+    z-index: 1;    
+    background-color: blue;
+}
+
+#Profile{
+    position: fixed;
+    height: 100%;
+    right: 1164px;
+    width: 180px;
+    background-color: red;
+}
+
+#Post{
+    position: absolute;
+    height: 100%;
+    right: 664px;
+    width: 500px;
+    z-index: 0;
+    background-color: yellow;
+}
+
+#rightcol{
+    position: absolute;
+    height: 100%;
+    right: 356px;
+    width: 308px;
+     z-index: 0;
+    background-color: green;
+}
+
+#Messages{
+    position: fixed;
+    right: 0;
+    top: 42px;
+    height: 100%;
+    width: 205px;
+    background-color: grey;
+}
+#chat{
+    position: fixed;
+    right: 245px;
+    bottom: 0px;
+    width: 160px;
+    height: 29.6px;
+    background: red;
+    z-index: 1;
+}
+.top-pad{
+    padding-top: 12px;
+    top: 43px;
+}
