@@ -48,6 +48,15 @@ body{
     float:left;
 }
 
+#FRIEND{
+    position: fixed;
+    overflow: scroll;
+    top: 44px;
+    height: 100%;
+    right: 0%;
+    width: auto;
+}
+
 
 #Post{
     margin-bottom: 3px;
@@ -56,6 +65,14 @@ body{
     position: relative;
     right: 2px;
     margin-top:-10px;
+}
+
+#ContentLoading{
+    width: 501px;
+}
+
+#loading{
+    width: 100%;
 }
 
 #story{
@@ -71,6 +88,17 @@ body{
 #game{
     position: relative;
     margin-bottom:10px;
+}
+
+#f2{
+    position: relative;
+    margin-top: -5px;
+}
+
+#fsearch{
+    position: fixed;
+    bottom: 0;
+    margin-bottom: -5px;
 }
 
 
