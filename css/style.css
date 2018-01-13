@@ -14,12 +14,12 @@ body{
 
 #Profile{
     position: fixed;
-    height: 100%;
     left:  151px;
     width: 180px;
-    background-color: red;
 }
-
+#Profile img{
+    width: 180px;
+}
 #Post{
     position: absolute;
     height: 100%;
@@ -34,7 +34,7 @@ body{
     height: 100%;
     left: 831px;
     width: 308px;
-     z-index: 0;
+    z-index: 0;
     background-color: green;
 }
 
