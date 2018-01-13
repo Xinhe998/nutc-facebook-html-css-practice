@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(233, 235, 238)
+}
+
+#TOP{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1500px;
+    height: 43px;
+    background-color: rgb(62, 100, 177) 
+}
+
+#search{
+    position: relative;
+    top: 0;
+    left: 64px;
+    float:left;
+}
+
+#top-icon{
+    position: relative;
+    float: left; 
+    left: 263px;
+}
+
