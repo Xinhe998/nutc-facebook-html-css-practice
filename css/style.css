@@ -13,7 +13,7 @@ body{
 }
 
 #Profile{
-    position: fixed;
+    position: absolute;
     left:  151px;
     width: 180px;
 }
@@ -31,21 +31,20 @@ body{
 }
 #rightcol{
     position: absolute;
-    height: 100%;
     padding-left: 10px;
     left: 831px;
     width: 308px;
     z-index: 0;
-    background-color: green;
 }
-
+#rightcol img{
+    width: 308px;
+}
 #Messages{
     position: fixed;
     right: 0;
     top: 42px;
     height: 100%;
     width: 205px;
-    background-color: grey;
 }
 #chat{
     position: fixed;
