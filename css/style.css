@@ -24,3 +24,11 @@ body{
     left: 263px;
 }
 
+#LEFT{
+    position: fixed;
+    top: 44px;
+    left: 59px;
+    width: auto;
+    height: auto;
+}
+
