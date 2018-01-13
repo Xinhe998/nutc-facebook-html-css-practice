@@ -22,16 +22,17 @@ body{
 }
 #Post{
     position: absolute;
-    height: 100%;
     left:  331px;
     width: 500px;
     z-index: 0;
-    background-color: yellow;
 }
-
+#Post img{
+    width: 500px;
+}
 #rightcol{
     position: absolute;
     height: 100%;
+    padding-left: 10px;
     left: 831px;
     width: 308px;
     z-index: 0;
