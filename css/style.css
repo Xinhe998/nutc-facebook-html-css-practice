@@ -40,27 +40,37 @@ body{
     float:left;
 }
 
+#RIGHT{
+    position: relative;
+    top: 44px;
+    left: 255px;
+    width: auto;
+    float:left;
+}
+
 
 #Post{
     margin-bottom: 3px;
-}
-
-#Content1{
-    position: relative;
-    height: auto;
-}
-
-#Content2{
-    position: relative;
-}
-#Content3{
-    position: relative;
-}
-
+}   
 #m-b{
     position: relative;
     right: 2px;
-    margin-top: -10px;
+    margin-top:-10px;
+}
+
+#story{
+    position: relative;
+    margin-bottom:10px;
+}
+
+#birth{
+    position: relative;
+    margin-bottom:10px;
+}
+
+#game{
+    position: relative;
+    margin-bottom:10px;
 }
 
 
