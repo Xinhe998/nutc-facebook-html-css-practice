@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background-color: rgb(233,235,238);
 }
 
 #navbar-wrap{
@@ -8,13 +9,13 @@ body{
     height: 42px;
     width: 100%;
     z-index: 1;    
-    background-color: blue;
+    background-color: rgb(66,103,179);
 }
 
 #Profile{
     position: fixed;
     height: 100%;
-    right: 1164px;
+    left:  151px;
     width: 180px;
     background-color: red;
 }
@@ -22,7 +23,7 @@ body{
 #Post{
     position: absolute;
     height: 100%;
-    right: 664px;
+    left:  331px;
     width: 500px;
     z-index: 0;
     background-color: yellow;
@@ -31,7 +32,7 @@ body{
 #rightcol{
     position: absolute;
     height: 100%;
-    right: 356px;
+    left: 831px;
     width: 308px;
      z-index: 0;
     background-color: green;
@@ -57,4 +58,28 @@ body{
 .top-pad{
     padding-top: 12px;
     top: 43px;
+}
+.pad-rig-205{
+    position: relative;
+    padding-right: 205px;
+}
+.mar-lr-151{
+    position: relative;
+    margin: 0 151px;
+}
+#fb-Search{
+    position: absolute;
+    height: 42px;
+    width: 666px;
+}
+#fb-Search img{
+    height: 42px;
+}
+#fb-profile-Icon{
+    position: absolute;
+    height: 42px;
+    padding-left: 688px;
+}
+#fb-profile-Icon img{
+    height: 42px;
 }
