@@ -6,8 +6,9 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    width: 1500px;
+    width: 100%;
     height: 43px;
+    z-index: 10000;
     background-color: rgb(62, 100, 177) 
 }
 
@@ -20,15 +21,46 @@ body{
 
 #top-icon{
     position: relative;
-    float: left; 
     left: 263px;
 }
 
 #LEFT{
     position: fixed;
     top: 44px;
-    left: 59px;
+    left: 59px; 
+    float: left;
+    margin-right:12px;
+}
+
+#MID{
+    position: relative;
+    top: 44px;
+    left: 250px;
     width: auto;
+    float:left;
+}
+
+
+#Post{
+    margin-bottom: 3px;
+}
+
+#Content1{
+    position: relative;
     height: auto;
 }
+
+#Content2{
+    position: relative;
+}
+#Content3{
+    position: relative;
+}
+
+#m-b{
+    position: relative;
+    right: 2px;
+    margin-top: -10px;
+}
+
 
