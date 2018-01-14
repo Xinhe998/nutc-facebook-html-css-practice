@@ -3,11 +3,6 @@ html,body {
     background: rgb(233, 235, 238);
 }
 
-#Wrap {
-    /*width: 100%;
-    height: 100%;*/
-}
-
 #Header {
     width: 100%;
     height: 7%;
@@ -20,7 +15,6 @@ html,body {
 }
 
 #Header .header_logo {
-    
     margin-left: 5%;
 }
 
@@ -31,18 +25,19 @@ html,body {
 #Left {
     width: 15%;
     position: fixed;
-    left: 6%;
+    left: 4%;
     top: 9%;
 }
 
 #Left img {
+    width: 100%;
     margin-right: 0;
 }
 
 #ItemBlock {
     width: 36%;
     position: relative;
-    left: 22%;
+    left: 20%;
     top: 9%;
 }
 
@@ -50,6 +45,7 @@ html,body {
     width: 100%;
     margin-top: 1%;
     margin-bottom: 1%;
+    border: 1px solid #CCCCCC;
 }
 
 #ItemBlock .itemblock_1 {
@@ -59,8 +55,17 @@ html,body {
 #Message {
     width: 20%;
     position: fixed;
-    left: 59%;
+    left: 57%;
     top: 9%;
+}
+
+#Message img {
+    width: 100%;
+    border: 1px solid #CCCCCC;
+}
+
+#Message .meg-bottom {
+    border: none;
 }
 
 #ChatBox {
@@ -71,20 +76,69 @@ html,body {
 
 #Chat {
     width: 16.5%;
-    height: 90%;
+    height: 88%;
     position: fixed;
     top: 7%;
     right: 0;
+    overflow-x: hidden;
     overflow-y: scroll;
 }
 
-#Chat .chat { 
-    margin-right: 2%;
-    margin-bottom: 5%;
-}
-
-#Chat .chat-search {
+#Chat-search {
+    width: 16.5%;
     position: fixed;
     bottom: 0;
-    right: 2%;
+    right: 0;
+}
+
+#Chat img, #Chat-search img {
+    width: 100%;
+    border-left: 1px solid #CCCCCC;
+}
+
+@media screen and (min-width:1400px) {
+    #Header {
+        height: 5%;
+    }
+
+    #Header .header_logo {
+        margin-left: 18%;
+    }
+    
+    #Header .header_bar {
+        margin-left: 13%;
+    }
+    
+    #Left {
+        width: 11%;
+        left: 17%;
+        top: 7%;
+    }
+    
+    #ItemBlock {
+        width: 28%;
+        left: 28%;
+        top: 7%;
+    }
+    
+    #Message {
+        width: 18%;
+        left: 57%;
+        top: 7%;
+    }
+    
+    #ChatBox {
+        right: 18%;
+        bottom: 0;
+    }
+    
+    #Chat {
+        width: 13%;
+        height: 91%;
+        top: 5%;
+    }
+
+    #Chat-search {
+        width: 13%;
+    }
 }
