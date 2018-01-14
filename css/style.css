@@ -1,6 +1,7 @@
 body{
     font-family: Arial,微軟正黑體;
     background-color:  #e9ebee;
+    overflow: hidden;
 }
 #header{
     width: 100%;
@@ -69,11 +70,12 @@ body{
     width: 200px;
     height: 100%;
     top: 50px;
-    right: 55px; 
+    right: 30px; 
     margin: 0px;
     border-color:  rgb(173, 173, 170);
     border-width: 0 0 0 1px;
     border-style: solid;
+    overflow: scroll;
 }
 .friend-img{
     width: 100%;
@@ -81,9 +83,9 @@ body{
 }
 #message{
     position: fixed;
-    width: 200px;
-    height: 300px;    
-    right: 220px; 
+    width: 300px;
+    height: 400px;    
+    right: 260px; 
     margin: 0px;
     bottom: 0px;
     background-color: white;
