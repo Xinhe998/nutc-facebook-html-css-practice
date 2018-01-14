@@ -71,6 +71,7 @@ html,body {
 
 #Message img {
     width: 100%;
+    height: auto;
     border: 1px solid #CCCCCC;
 }
 
@@ -101,13 +102,56 @@ html,body {
     right: 0;
 }
 
+#ChatSmall {
+    display: none;
+}
+
 #Chat img, #Chat-search img {
     width: 100%;
+    height: auto;
     border-left: 1px solid #CCCCCC;
 }
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:1100px) { 
+    #Header .header_logo {
+        margin-left: 3%;
+    }
+    
+    #Header .header_search, #Header .header_logo {
+        height: 55%;
+        margin-bottom: 0.2%;
+    }
+    
+    #Header .header_bar {
+        margin-left: 15%;
+    }
+    
+    #Left {
+        width: 20%;
+        left: 2%;
+    }
+    
+    #ItemBlock {
+        width: 45%;
+        position: relative;
+        left: 22%;
+    }
+    
+    #Message {
+        width: 30%;
+        left: 68%;
+    }
 
+    #ChatBox, #Chat, #Chat-search {
+        display: none;
+    }
+    
+    #ChatSmall {
+        position: fixed;
+        right: 2%;
+        bottom: 0;
+        display: inline;
+    }
 }
 
 @media screen and (min-width:1400px) {
