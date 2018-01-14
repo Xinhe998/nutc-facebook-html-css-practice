@@ -66,6 +66,12 @@ html,body {
     top: 9%;
 }
 
+#ChatBox {
+    position: fixed;
+    right: 16%;
+    bottom: 0;
+}
+
 #Chat {
     width: 15%;
     position: fixed;
