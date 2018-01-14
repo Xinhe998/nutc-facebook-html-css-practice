@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="Icon" href="assets/fb.png" type="image/x-icon">
+    <title>Facebook</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="navbar-wrap">
+            <div class="pad-rig-205">
+                <div class="mar-lr-151">
+                    <div id="fb-Search">
+                        <img src="assets/fb-Search.png">
+                    </div>
+                    <div id="fb-profile-Icon">
+                        <img src="assets/fb-profile-Icon.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Profile" class="top-pad">
+            <img src="assets/profile1.png">
+            <img src="assets/profile2.png" style="margin-top:-4px; padding-left:2px;">
+            <img src="assets/profile3.png" style="margin-top:-7px;">
+        </div>
+        <div id="Post" class="top-pad">
+            <div id="post-write">
+                <img src="assets/post_write.png">
+            </div>
+            <img src="assets/post1.png" style="margin-left:2px;">
+            <img src="assets/post2.png" style="margin-left:2px;">
+            <img src="assets/loading.gif" style="margin-left:2px;">
+
+        </div>
+        <div id="rightcol" class="top-pad">
+            <img src="assets/rightcol1.png">
+            <img src="assets/rightcol2.png">
+            <img src="assets/rightcol3.png">
+            <img src="assets/rightcol4.png">
+            <img src="assets/rightcol5.png">
+            <img src="assets/rightcol6.png">
+        </div>
+        <div id="chat">
+            <img id="img1" src="assets/chat1.png">
+        </div>
+        <div id="chat-cover">
+            <img id="img2" src="assets/chat2.png" style="width: 160px;">
+        </div>
+        <div id="chatView">
+            <img id="img3" src="assets/chat.png" style="height: 300px; display:none;">
+        </div>
+        <div id="Messages">
+            <div id="Messages-top">
+                <img src="assets/Message_top.png">
+            </div>
+            <div id="Messages-bottom">
+                <img src="assets/Message_bottom1.png" style="margin-left:3px;">
+                <img src="assets/Message_bottom2.png" style="margin-top:-5px;">
+                <img src="assets/Message_bottom3.png" style="margin-top:-7px; margin-left:2px;">
+            </div>
+        </div>
+        <div id="Messages-chat">
+            <img src="assets/Messages_chat.png" style="width:250px;">
+        </div>
+        <div id="Messages-Search">
+            <img src="assets/Message_Search.png" style="width:205px; height:28px;">
+        </div>
+    </div>
+    <script>
+        document.getElementById("chat-cover").onclick = function () { showchatview() };
+        document.getElementById("chatView").onclick = function () { showchat() };
+        function showchatview() {
+            var img1 = document.getElementById("img1");
+            var img2 = document.getElementById("img2");
+            var img3 = document.getElementById("img3");
+            img1.style.display = 'none';
+            img2.style.display = 'none';
+            img3.style.display = 'block';
+        }
+        function showchat() {
+            var img1 = document.getElementById("img1");
+            var img2 = document.getElementById("img2");
+            var img3 = document.getElementById("img3");
+            img1.style.display = 'block';
+            img2.style.display = 'block';
+            img3.style.display = 'none';
+        }
+    </script>
+</body>
+
+</html>
