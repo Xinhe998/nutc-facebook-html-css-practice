@@ -34,7 +34,7 @@ html,body {
 #Left {
     width: 15%;
     position: fixed;
-    left: 5%;
+    left: 6%;
     top: 9%;
 }
 
@@ -62,25 +62,32 @@ html,body {
 #Message {
     width: 20%;
     position: fixed;
-    left: 60%;
+    left: 59%;
     top: 9%;
 }
 
 #ChatBox {
     position: fixed;
-    right: 16%;
+    right: 18%;
     bottom: 0;
 }
 
 #Chat {
-    width: 15%;
+    width: 16.5%;
+    height: 90%;
     position: fixed;
     top: 7%;
     right: 0;
+    overflow-y: scroll;
+}
+
+#Chat .chat { 
+    margin-right: 2%;
+    margin-bottom: 5%;
 }
 
 #Chat .chat-search {
     position: fixed;
     bottom: 0;
-    right: 0;
+    right: 2%;
 }
