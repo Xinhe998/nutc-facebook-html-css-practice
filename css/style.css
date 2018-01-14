@@ -10,7 +10,6 @@ html,body {
     position: fixed;
     top: 0;
     left: 0;
-    margin: 0;
     z-index: 2;
 }
 
@@ -18,8 +17,17 @@ html,body {
     margin-left: 5%;
 }
 
+#Header .header_search, #Header .header_logo {
+    height: 60%;
+    margin-bottom: 0.1%;
+}
+
 #Header .header_bar {
     margin-left: 15%;
+}
+
+#Header img {
+    width: auto;
 }
 
 #Left {
@@ -31,6 +39,7 @@ html,body {
 
 #Left img {
     width: 100%;
+    height: auto;
     margin-right: 0;
 }
 
@@ -43,6 +52,7 @@ html,body {
 
 #ItemBlock img {
     width: 100%;
+    height: auto;
     margin-top: 1%;
     margin-bottom: 1%;
     border: 1px solid #CCCCCC;
@@ -96,7 +106,7 @@ html,body {
     border-left: 1px solid #CCCCCC;
 }
 
-@media screen and (min-width:1400px) {
+@media screen and (max-width:720px) {
 
 }
 
