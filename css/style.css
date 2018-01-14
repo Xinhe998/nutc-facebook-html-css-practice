@@ -10,6 +10,22 @@ body{
     margin: 0px;
     background-color: #4267b2;
 }
+#fblogo{
+    position: absolute;
+    left: 50px;
+    top:2px;
+}
+#search{
+    position: absolute;
+    left:90px;
+    top:4px;
+}
+#title{
+    position: absolute;
+    right:300px;
+    top:0px;    
+    top:2px;
+}
 #content{
     position: relative;
     margin: 0px;
