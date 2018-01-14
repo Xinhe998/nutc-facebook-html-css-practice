@@ -19,11 +19,11 @@ html,body {
 }
 
 #Header .header_bar {
-    margin-left: 18%;
+    margin-left: 15%;
 }
 
 #Left {
-    width: 15%;
+    width: 16%;
     position: fixed;
     left: 4%;
     top: 9%;
@@ -53,7 +53,7 @@ html,body {
 }
 
 #Message {
-    width: 20%;
+    width: 22%;
     position: fixed;
     left: 57%;
     top: 9%;
