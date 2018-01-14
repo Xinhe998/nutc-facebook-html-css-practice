@@ -77,9 +77,30 @@ body{
     right: 245px;
     bottom: 0px;
     width: 160px;
-    height: 29.6px;
-    background: red;
+    height: 26.26px;
+    z-index: 2;
+    -webkit-transition:  z-index 1s;
+    transition:  z-index 1s;
+}
+#chat-cover{
+    position: fixed;
+    right: 245px;
+    bottom: 0px;
+    width: 160px;
+    height: 26.26px;
     z-index: 1;
+}
+#chat:hover{
+    z-index: 0;
+}
+#chat img{
+    width: 160px;
+}
+#chatView{
+    position: fixed;
+    right: 245px;
+    bottom: 0px;
+    height: 300px;
 }
 .top-pad{
     padding-top: 12px;

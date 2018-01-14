@@ -46,7 +46,15 @@
             <img src="assets/rightcol5.png">
             <img src="assets/rightcol6.png">
         </div>
-        <div id="chat">chat</div>
+        <div id="chat">
+            <img id="img1" src="assets/chat1.png">
+        </div>
+        <div id="chat-cover">
+            <img id="img2" src="assets/chat2.png" style="width: 160px;">
+        </div>
+        <div id="chatView">
+            <img id="img3" src="assets/chat.png" style="height: 300px; display:none;">
+        </div>
         <div id="Messages">
             <div id="Messages-top">
                 <img src="assets/Message_top.png">
@@ -61,7 +69,26 @@
             <img src="assets/Message_Search.png" style="width:205px; height:28px;">
         </div>
     </div>
-
+    <script>
+        document.getElementById("chat-cover").onclick = function () { showchatview() };
+        document.getElementById("chatView").onclick = function () { showchat() };
+        function showchatview() {
+            var img1 = document.getElementById("img1");
+            var img2 = document.getElementById("img2");
+            var img3 = document.getElementById("img3");
+            img1.style.display = 'none';
+            img2.style.display = 'none';
+            img3.style.display = 'block';
+        }
+        function showchat() {
+            var img1 = document.getElementById("img1");
+            var img2 = document.getElementById("img2");
+            var img3 = document.getElementById("img3");
+            img1.style.display = 'block';
+            img2.style.display = 'block';
+            img3.style.display = 'none';
+        }
+    </script>
 </body>
 
 </html>
