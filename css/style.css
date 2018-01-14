@@ -3,6 +3,7 @@ body{
     background-color: rgb(233,235,238);
 }
 
+/*navbar*/
 #navbar-wrap{
     margin: 0;
     position: fixed;
@@ -11,7 +12,25 @@ body{
     z-index: 1;    
     background-color: rgb(66,103,179);
 }
+#fb-Search{
+    position: absolute;
+    height: 42px;
+    width: 666px;
+}
+#fb-Search img{
+    height: 42px;
+}
+#fb-profile-Icon{
+    position: absolute;
+    height: 42px;
+    padding-left: 688px;
+}
+#fb-profile-Icon img{
+    height: 42px;
+}
 
+
+/*Profile*/
 #Profile{
     position: absolute;
     left:  151px;
@@ -20,6 +39,8 @@ body{
 #Profile img{
     width: 180px;
 }
+
+/*Post*/
 #Post{
     position: absolute;
     left:  331px;
@@ -29,6 +50,8 @@ body{
 #Post img{
     width: 500px;
 }
+
+/*rightcol*/
 #rightcol{
     position: absolute;
     padding-left: 10px;
@@ -39,6 +62,8 @@ body{
 #rightcol img{
     width: 308px;
 }
+
+/*Messages*/
 #Messages{
     position: fixed;
     border-left-style: solid;
@@ -72,9 +97,18 @@ body{
     right: 0;
     bottom: 0;
 }
+#Messages-chat{
+    position: fixed;
+    margin: 0 0 -2px 0;
+    height: 28px;
+    right: 10px;
+    bottom: 0px;
+    opacity: 0;
+}
+/*chat*/
 #chat{
     position: fixed;
-    right: 245px;
+    right: 265px;
     bottom: 0px;
     width: 160px;
     height: 26.26px;
@@ -84,7 +118,7 @@ body{
 }
 #chat-cover{
     position: fixed;
-    right: 245px;
+    right: 265px;
     bottom: 0px;
     width: 160px;
     height: 26.26px;
@@ -98,10 +132,12 @@ body{
 }
 #chatView{
     position: fixed;
-    right: 245px;
+    right: 265px;
     bottom: 0px;
     height: 300px;
 }
+
+/*邊界調整*/
 .top-pad{
     padding-top: 12px;
     top: 43px;
@@ -114,19 +150,55 @@ body{
     position: relative;
     margin: 0 151px;
 }
-#fb-Search{
-    position: absolute;
-    height: 42px;
-    width: 666px;
+
+/*RWD*/
+@media screen and (max-width:480px) {
+    
 }
-#fb-Search img{
-    height: 42px;
+@media screen and (max-width:734px) {
+    #fb-profile-Icon{
+        padding-left: 500px;
+    }
 }
-#fb-profile-Icon{
-    position: absolute;
-    height: 42px;
-    padding-left: 688px;
+
+@media screen and (min-width: 735px) and (max-width:1010px) {
+    #fb-profile-Icon{
+        padding-left: 70%;
+    }
 }
-#fb-profile-Icon img{
-    height: 42px;
+@media screen and (min-width: 1011px) and (max-width:1079px) {
+
+}
+@media screen and (max-width:1080px) {
+    .mar-lr-151{
+        margin: 0 0px;
+    }
+    .pad-rig-205{
+        padding-right: 0;
+    }
+    #Profile{
+        left: 0;
+    }
+    #Post{
+        left: 200px;
+    }
+    #rightcol{
+        left: 706px;
+    }
+}
+@media screen and (min-width:1081px) and (max-width:1499px) {
+    .mar-lr-151{
+        margin: 0 70px;
+    }
+}
+@media screen and (max-width:1500px) {
+    #Messages{
+        opacity: 0;
+    }
+    #Messages-Search{
+        opacity: 0;
+    }
+    #Messages-chat{
+        opacity: 1;
+    }
 }
