@@ -26,3 +26,13 @@ body {
     position: fixed;
     width: 195px;
 }
+
+.container .content-middle {
+    position: absolute;
+    left: 200px;
+    width: 500px;
+}
+
+.container .content-middle .pic {
+    width: 500px;
+}
