@@ -1,0 +1,17 @@
+body {
+    background-color: #E9EBEE;
+}
+
+.container .nav {
+    z-index: 10000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 36px;
+}
+
+.container .nav .home-pic {
+    position: relative;
+    top: -43px;
+    left: 155px;
+}
