@@ -15,3 +15,14 @@ body {
     top: -43px;
     left: 155px;
 }
+
+.container .content {
+    position: relative;
+    top: 36px;
+    margin-left: 140px;
+}
+
+.container .content-left {
+    position: fixed;
+    width: 195px;
+}
