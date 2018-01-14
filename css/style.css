@@ -97,6 +97,10 @@ html,body {
 }
 
 @media screen and (min-width:1400px) {
+
+}
+
+@media screen and (min-width:1400px) {
     #Header {
         height: 5%;
     }
@@ -128,7 +132,7 @@ html,body {
     }
     
     #ChatBox {
-        right: 18%;
+        right: 14%;
         bottom: 0;
     }
     
