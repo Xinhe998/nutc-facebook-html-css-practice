@@ -489,3 +489,100 @@ p{
     color: blue;
     text-decoration: none;
 }
+
+
+
+
+
+
+
+
+.wrap .content-wrap .content-center{
+    width: 500px;
+    margin: 0 12px;
+    position: absolute;
+    top: 54px;
+    left: 400px;
+}
+
+.wrap .content-wrap .content-center .release{
+    width: inherit;
+    background: #FFF;
+}
+
+.wrap .content-wrap .content-center .release .releasebtn{
+    width: inherit;
+    height: 17px;
+    padding: 8px 0;
+    background: rgb(246, 247, 249);
+
+}
+
+.wrap .content-wrap .content-center .release .enter{
+    width: inherit;
+}
+
+.wrap .content-wrap .content-center .release .enter .enterpic{
+    width: 52px;
+    height: 52px;
+    float: left;
+}
+
+.wrap .content-wrap .content-center .release .enter .enterpic img{
+    width: 40px;
+    height: 40px;
+    margin: 12px 0 0 12px;
+    border-radius: 100%;
+}
+
+.wrap .content-wrap .content-center .release .enter .entertext{
+    width: 424px;
+    height: 39px;
+    padding: 18px 12px 14px 12px;
+    float: left;
+}
+
+.wrap .content-wrap .content-center .release .enter .entertext input{
+    width: 424px;
+    height: 39px;
+    padding: 0;
+    border: none;
+}
+
+.wrap .content-wrap .content-center .release .other{
+    width: 476px;
+    height: 32px;
+    margin: 0 12px;
+    padding: 8px 0;
+    border-top: #AAA 0.5px solid;
+}
+
+.wrap .content-wrap .content-center .release .other ul{
+    margin: 0;
+    padding: 0;
+}
+
+.wrap .content-wrap .content-center .release .other ul li{
+    list-style: none;
+    margin: 0 10px;
+    float: left;
+}
+
+.wrap .content-wrap .content-center .cont01{
+    width: 500px;
+    margin: 12px 0 0 0;
+}
+
+.wrap .content-wrap .content-center .cont02{
+    width: 500px;
+    margin: 12px 0 0 0;
+}
+
+.wrap .content-wrap .content-center .cont03{
+    width: 500px;
+    margin: 12px 0 0 0;
+}
+
+.wrap .content-wrap .content-center .cont03 img{
+    width: 500px;
+}
