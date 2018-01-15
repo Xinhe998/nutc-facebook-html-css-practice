@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+.wrap{
+    width: 100%;
+    background: #FFF;
+}
+
+.header-wrap{
+    position: absolute;
+    top: 0;
+    height: 42px;
+    width: 100%;
+}
+
+.header-wrap .header{
+    height: inherit;
+    width: inherit;
+    position: fixed;
+    background: rgba(66, 103, 178, 1);
+}
+
+.header-wrap .header .header-content{
+    height: inherit;
+    width: 1012px;
+    margin: 0 0 0 12%;
+}
+
+.header-wrap .header .header-content .logo{
+    width: 31px;
+    height: inherit;
+    float: left;
+}
+
+.header-wrap .header .header-content .logo img{
+    width: 24px;
+    height: 24px;
+    margin: 9px 0 0 0;
+}
+
+.header-wrap .header .header-content .inputbox{
+    width: 65%;
+    height: inherit;
+    float: left;
+}
+
+.header-wrap .header .header-content .inputbox input{
+    height: 22px;
+    width: 60%;
+    margin: 9px 0 0 0;
+    padding: 1px 0 1px 5px;
+    border: #666 0.5px solid;
+    border-right: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    float: left;
+}
+
+.header-wrap .header .header-content .inputbox .researchbtn{
+    height: 25px;
+    width: 46px;
+    margin: 9px 0 0 0;
+    padding: 0;
+    border: #666 0.5px solid;
+    border-left: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    float: left;
+}
+
+.header-wrap .header .header-content .inputbox .researchbtn img{
+    height: 16px;
+    width: 16px;
+    margin: 2px 0 0 0;
+}
+
+.header-wrap .header .header-content .my{
+    width: 80px;
+    height: 24px;
+    margin: 9px 0 0 0;
+    padding: 0 0 0 4px;
+    border-right: #999 0.5px solid;
+    float: left;
+}
+
+.header-wrap .header .header-content .my a{
+    font-size: 14px;
+    color: #FFF;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.header-wrap .header .header-content .my:hover{
+    background: rgba(29, 59, 131, 1)
+}
+
+.header-wrap .header .header-content .my a .namepic{
+    width: 24px;
+    height: 24px;
+    float: left;
+}
+
+.header-wrap .header .header-content .my a .namepic img{
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+}
+
+.header-wrap .header .header-content .my a .name{
+    height: 24px;
+    line-height: 24px;
+    padding: 0 0 0 5px;
+    float: left;
+}
+
+.header-wrap .header .header-content .home{
+    height: 24px;
+    line-height: 24px;
+    margin: 8px 0 0 0;
+    float: left;
+}
+
+.header-wrap .header .header-content .home:hover{
+    background: rgba(29, 59, 131, 1)
+}
+
+.header-wrap .header .header-content .home a{
+    font-size: 14px;
+    color: #FFF;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.header-wrap .header .header-content .home a .homelink{
+    height: 24px;
+    line-height: 24px;
+    padding: 0 10px;
+}
+
+.header-wrap .header .header-content .btn{
+    height: 42px;
+    float: left;
+}
+
+.header-wrap .header .header-content .btn .btnnum{
+    float: left;
+}
+
+.header-wrap .header .header-content .btn .friends{
+    height: 42px;
+    width: 30px;
+    line-height: 42px;
+    background: url(../images/friends.png);
+    background-repeat: no-repeat; 
+    background-position: center center;
+    display: block;
+}
+
+.header-wrap .header .header-content .btn .friends:hover{
+    background: url(../images/friends2.png);
+    background-repeat: no-repeat; 
+    background-position: center center;
+    display: block;
+}
+
+.header-wrap .header .header-content .btn .messages{
+    height: 42px;
+    width: 30px;
+    line-height: 42px;
+    background: url(../images/messages.png);
+    background-repeat: no-repeat; 
+    background-position: center center;
+    display: block;
+}
+
+.header-wrap .header .header-content .btn .messages:hover{
+    background: url(../images/messages2.png);
+    background-repeat: no-repeat; 
+    background-position: center center;
+    display: block;
+}
+
+.header-wrap .header .header-content .btn .notice{
+    height: 42px;
+    width: 30px;
+    line-height: 42px;
+    background: url(../images/notice.png);
+    background-repeat: no-repeat; 
+    background-position: center center;
+    display: block;
+}
+
+.header-wrap .header .header-content .btn .notice:hover{
+    background: url(../images/notice2.png);
+    background-repeat: no-repeat; 
+    background-position: center center;
+}
+
+.header-wrap .header .header-content .helplist{
+    margin: 0 0 0 40px;
+    height: 42px;
+    float: left;
+}
+
+.header-wrap .header .header-content .helplist .helplistnum{
+    float: left;
+}
+
+.header-wrap .header .header-content .helplist .help{
+    height: 42px;
+    width: 30px;
+    line-height: 42px;
+    background: url(../images/help.png);
+    background-repeat: no-repeat; 
+    background-position: center center;
+    display: block;
+}
+
+.header-wrap .header .header-content .helplist .list{
+    height: 42px;
+    width: 30px;
+    line-height: 42px;
+    background: url(../images/list.png);
+    background-repeat: no-repeat; 
+    background-position: center center;
+    display: block;
+}
