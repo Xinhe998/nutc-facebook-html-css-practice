@@ -230,3 +230,262 @@ p{
     background-position: center center;
     display: block;
 }
+
+
+.wrap .content-wrap{
+    width: inherit;
+    height: 2000px;
+    padding: 12px 0 0 0;
+    background: rgba(233, 235, 238, 1);
+    position: relative;
+}
+
+.wrap .content-wrap .content-left{
+    width: 175px;
+    padding: 0 0 0 5px;
+    position: absolute;
+    top: 54px;
+    left: 150px;
+}
+
+.wrap .content-wrap .content-left .personal{
+    width: inherit;
+    margin: 0 0 10px 0;
+}
+
+.wrap .content-wrap .content-left .personal a{
+    color: #000;
+    text-decoration: none;
+}
+
+.wrap .content-wrap .content-left .personal .my{
+    height: 28px;
+    width: inherit;
+    margin: 0 0 10px 0;
+}
+
+.wrap .content-wrap .content-left .personal .my:hover{
+    background: rgb(246, 247, 249);
+}
+
+.wrap .content-wrap .content-left .personal .my .point{
+    width: 28px;
+    height: 28px;
+    background: url(../images/point.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    float: right;
+    display: none;
+}
+
+.wrap .content-wrap .content-left .personal .my:hover .point{
+    display: block;
+}
+
+.wrap .content-wrap .content-left .personal .my .mypic{
+    height: inherit;
+    line-height: 28px;
+    float: left;
+}
+
+.wrap .content-wrap .content-left .personal .my .mypic img{
+    height: 20px;
+    width: 20px;
+    margin: 4px 0 0 0;
+    border-radius: 100%;
+}
+
+.wrap .content-wrap .content-left .personal .my .myname{
+    height: inherit;
+    font-size: 14px;
+    line-height: 28px;
+    margin: 0 0 0 5px;
+    float: left;
+}
+
+.wrap .content-wrap .content-left .personal .news{
+    height: 28px;
+    width: inherit;
+    margin: 0 0 1px 0;
+}
+
+.wrap .content-wrap .content-left .personal .news:hover{
+    background: rgb(246, 247, 249);
+}
+
+.wrap .content-wrap .content-left .personal .news .point{
+    width: 28px;
+    height: 28px;
+    background: url(../images/point.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    float: right;
+    display: none;
+}
+
+.wrap .content-wrap .content-left .personal .news:hover .point{
+    display: block;
+}
+
+.wrap .content-wrap .content-left .personal .news .newspic{
+    height: inherit;
+    line-height: 28px;
+    float: left;
+}
+
+.wrap .content-wrap .content-left .personal .news .newspic img{
+    height: 20px;
+    width: 20px;
+    margin: 4px 0 0 0;
+    border-radius: 100%;
+}
+
+.wrap .content-wrap .content-left .personal .news .newstext{
+    height: inherit;
+    font-size: 14px;
+    line-height: 28px;
+    margin: 0 0 0 5px;
+    float: left;
+}
+
+.wrap .content-wrap .content-left .personal .messages{
+    height: 28px;
+    width: inherit;
+}
+
+.wrap .content-wrap .content-left .personal .messages:hover{
+    background: rgb(246, 247, 249);
+}
+
+.wrap .content-wrap .content-left .personal .messages .messagespic{
+    height: inherit;
+    line-height: 28px;
+    float: left;
+}
+
+.wrap .content-wrap .content-left .personal .messages .messagespic img{
+    height: 20px;
+    width: 20px;
+    margin: 4px 0 0 0;
+    border-radius: 100%;
+}
+
+.wrap .content-wrap .content-left .personal .messages .messagestext{
+    height: inherit;
+    font-size: 14px;
+    line-height: 28px;
+    margin: 0 0 0 5px;
+    float: left;
+}
+
+.wrap .content-wrap .content-left .personal .club{
+    height: 28px;
+    width: inherit;
+}
+
+.wrap .content-wrap .content-left .personal .club:hover{
+    background: rgb(246, 247, 249);
+}
+
+.wrap .content-wrap .content-left .personal .club .clubpic{
+    height: inherit;
+    line-height: 28px;
+    float: left;
+}
+
+.wrap .content-wrap .content-left .personal .club .clubpic img{
+    height: 20px;
+    width: 20px;
+    margin: 4px 0 0 0;
+    border-radius: 100%;
+}
+
+.wrap .content-wrap .content-left .personal .club .clubtext{
+    height: inherit;
+    font-size: 14px;
+    line-height: 28px;
+    margin: 0 0 0 5px;
+    float: left;
+}
+
+
+
+.wrap .content-wrap .content-left .fans{
+    width: inherit;
+    font-size: 14px;
+    margin: 0 0 10px 0;
+}
+
+.wrap .content-wrap .content-left .fans:hover .text .edit{
+    display: block;
+}
+
+.wrap .content-wrap .content-left .fans .text{
+    width: inherit;
+}
+
+.wrap .content-wrap .content-left .fans .text .edit{
+    float: right;
+    display: none;
+}
+
+.wrap .content-wrap .content-left .fans .text .edit a:visited{
+    color: blue;
+}
+
+.wrap .content-wrap .content-left .fans ul{
+    width: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.wrap .content-wrap .content-left .fans ul li{
+    width: inherit;
+    height: 30px;
+    list-style: none;
+}
+
+.wrap .content-wrap .content-left .fans ul li:hover .point{
+    display: block;
+}
+
+.wrap .content-wrap .content-left .fans ul li .point{
+    width: 17px;
+    height: 28px;
+    background: url(../images/point.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    float: right;
+    display: none;
+}
+
+
+
+
+
+.wrap .content-wrap .content-left .clubs{
+    width: inherit;
+    font-size: 14px;
+    margin: 0 0 10px 0;
+}
+
+.wrap .content-wrap .content-left .clubs ul{
+    width: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.wrap .content-wrap .content-left .clubs ul li{
+    width: inherit;
+    list-style: none;
+}
+
+.wrap .content-wrap .content-left .set{
+    width: inherit;
+    font-size: 14px;
+}
+
+.wrap .content-wrap .content-left .set a{
+    color: blue;
+    text-decoration: none;
+}
