@@ -621,3 +621,46 @@ p{
     padding: 10px;
     margin: 0 0 10px 0;
 }
+
+
+
+
+
+.wrap .content-wrap .message{
+    width: 205px;
+    height: 100%;
+    border-left: rgb(204, 204, 204) solid 1px;
+    position: fixed;
+    top: 42px;
+    right: 0;
+    background: rgba(233, 235, 238, 1);
+    overflow-y: auto;
+}
+
+.wrap .content-wrap .message ul{
+    width: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.wrap .content-wrap .message ul li{
+    list-style: none;
+}
+
+.wrap .content-wrap .message .text{
+    padding: 0 0 0 5px;
+    margin: 5px 0;
+    font-size: 12px;
+}
+
+.wrap .content-wrap .message .personsearchwrap{
+    width: inherit;
+    height: 30px;
+}
+
+.wrap .content-wrap .message .personsearchwrap .personsearch{
+    width: inherit;
+    height: inherit;
+    position: fixed;
+    bottom: 0px;
+}
