@@ -80,6 +80,7 @@ body{
 
 #chat{
     width: 30%;
+    height: 400px;
     position: fixed;
     margin-left: 80px;
     left:80%;
@@ -90,8 +91,7 @@ body{
 }
 
 #peo{
-    width: 20%;
-    position: relative;
-    z-index: -1;
-    background: #3b5998;
+    height: 100%;
+    overflow: auto;
+
 }
