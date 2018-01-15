@@ -16,9 +16,26 @@ body{
 
 }
 
+img{
+    width: 40px;
+    height: 40px;
+    margin-top:5px;
+    margin-left: 205px;
+    position: fixed;
+}
+
+input{
+    width:500px;
+    height: 30px;
+    position: relative;
+    left:250px;
+    top:7px;
+
+}
+
 #left{
     width: 20%;
-    background: #DDDDDD;
+    /* background: #DDDDDD; */
     position: fixed;
     
     
@@ -27,7 +44,7 @@ body{
 
 #content{
     width: 40%;
-    background: rgb(57, 100, 13);
+    /* background: rgb(57, 100, 13); */
     position: absolute;
     left:20%;
 
