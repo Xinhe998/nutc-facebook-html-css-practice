@@ -232,6 +232,7 @@ p{
 }
 
 
+
 .wrap .content-wrap{
     width: inherit;
     height: 2000px;
@@ -461,8 +462,6 @@ p{
 
 
 
-
-
 .wrap .content-wrap .content-left .clubs{
     width: inherit;
     font-size: 14px;
@@ -489,11 +488,6 @@ p{
     color: blue;
     text-decoration: none;
 }
-
-
-
-
-
 
 
 
@@ -589,8 +583,6 @@ p{
 
 
 
-
-
 .wrap .content-wrap .content-right{
     width: 308px;
     position: absolute;
@@ -621,8 +613,6 @@ p{
     padding: 10px;
     margin: 0 0 10px 0;
 }
-
-
 
 
 
