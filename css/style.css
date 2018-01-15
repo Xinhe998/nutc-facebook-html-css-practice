@@ -97,6 +97,13 @@ body {
     position: absolute;
     background-color: white;
 }
+.body-center-right-3 {
+    width: 162px;
+    height: 29px;
+    right: 250px;
+    bottom: 0px;
+    position: fixed;
+}
 .body-right {
     position: fixed;
     width: 14%;
@@ -118,7 +125,7 @@ body {
     position: fixed;
 }
 .profile {
-    padding: 6px 0 6px 680px;
+    padding: 6px 0 6px 667px;
     height: 30px;
     position: fixed;
 }
