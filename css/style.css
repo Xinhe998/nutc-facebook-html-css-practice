@@ -1,0 +1,139 @@
+body {
+    background-color: #e9ebee;
+}
+.container {
+    width: 1567px;
+    height: 1500px;
+    position: relative;
+    margin: 0 auto;
+}
+.header {
+    background-color: #3b5998;
+    width: 100%;
+    height: 45px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin: 0 auto;
+}
+.header-block {
+    background-color: #3b5998;
+    height: 45px;
+    width: 1300px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    margin: 0 14% 0 auto;
+}
+.body {
+    width: 75%;
+    height: 1000px;
+    margin: 0 14% 0 auto;
+}
+.body-header {
+    background-color: #3b5998;
+    position: fixed;
+    top: 0px;
+    height: 45px;
+    width: 80%;
+    z-index: 2;
+}
+.body-left {
+    top: 60px;
+    width: 200px;
+    height: 650px;
+    position: fixed;
+    background-color: white;
+}
+.body-center {
+    width: 32%;
+    height: 1000px;
+    top: 51px;
+    margin-left: 215px;
+    position: absolute;
+}
+.body-center-up {
+    width: 100%;
+    height: 156px;
+    top:0px;
+    position: absolute;
+}
+.body-center-center {
+    width: 100%;
+    height: 665px;
+    top: 170px;
+    position: absolute;
+}
+.body-center-down {
+    width: 100%;
+    height: 665px;
+    top: 845px;
+    position: absolute;
+}
+.body-center-bottom {
+    width: 100%;
+    height: 150px;
+    top: 1465px;
+    position: absolute;
+}
+.body-center-right {
+    width: 19.76%;
+    height: 1000px;
+    top: 52px;
+    margin-left: 727px;
+    position: absolute;
+}
+.body-center-right-1 {
+    position: absolute;
+    width: 100%;
+    height: 694px;
+    top: 0px;
+}
+.body-center-right-2 {
+    width: 100%;
+    height: 466px;
+    top: 705px;
+    position: absolute;
+    background-color: white;
+}
+.body-center-right-3 {
+    width: 162px;
+    height: 29px;
+    right: 250px;
+    bottom: 0px;
+    position: fixed;
+}
+.body-right {
+    position: fixed;
+    width: 14%;
+    height: 94.7%;
+    background-color: white;
+    right: 0;
+    top: 45px;
+    overflow: auto;
+}
+.icon {
+    width: 28px;
+    height: 28px;
+    padding: 8.5px 0 6px 3px;
+}
+.search {
+    padding: 8px 0 6px 5px;
+    height: 29px;
+    width: 440px;
+    position: fixed;
+}
+.profile {
+    padding: 6px 0 6px 667px;
+    height: 30px;
+    position: fixed;
+}
+.body-left-img {
+    width: 200px;
+    height: 650px;
+}
+.body-center-bottom-img {
+    width: 502px;
+    height: 150px;
+}
