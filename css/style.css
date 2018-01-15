@@ -81,7 +81,10 @@ body{
 #chat{
     width: 30%;
     position: fixed;
-    left: 70%;
+    margin-left: 80px;
+    left:80%;
     top:50px;
-
+}
+#chat img{
+    width:220px;
 }
