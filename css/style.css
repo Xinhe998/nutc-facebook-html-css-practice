@@ -65,3 +65,10 @@ body {
     bottom: 0;
     position: fixed;
 }
+
+.container .message {
+    position: fixed;
+    right: 230px;
+    bottom: -5px;
+    cursor: pointer;
+}
