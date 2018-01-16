@@ -7,7 +7,7 @@ body {
 #all{
     margin: 0%;
     padding: 0%;
-    width: 1500px;
+    width: 1900px;
     height: auto;
 }
 
@@ -20,14 +20,16 @@ body {
 #head {
     width: 100%;
     height: 53px;
-    position: fixed;
     background-color: #4267b2;
+    position: fixed;
 }
 
 #content {
+    width: 100%;
     margin: 0%;
     padding: 0%;
-    padding-top: 43px;
+    padding-top: 54px;
+    position: relative;
 }
 
 #list {
@@ -35,8 +37,21 @@ body {
     margin-left: 120px;
     width: 241px;
     height: auto;
+    position: fixed;
 }
 
 #contentL {
-    margin: 0%;
+    width: 650px;
+    left: 360px;
+    position: absolute;
+}
+
+#contentR{
+    width: 400px;
+    left: 1010px;
+    position: absolute;
+}
+
+.img{
+    margin-top: 15px;
 }
