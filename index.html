@@ -335,6 +335,14 @@
                 <div style="height:30px;"></div>
             </div>
 
+            
+            <div class="talk01">
+                
+            </div>
+            <div class="talk02">
+                <img class="windows" src="images/talk02.png" alt="">
+            </div>
+
             <div class="header-wrap">
                 <div class="header">
                     <div class="header-content">
@@ -400,3 +408,17 @@
     </div>
 </body>
 </html>
+
+<script src="js/jquery-3.2.1.js"></script>
+<script>
+    $(".talk01").click(function(){
+        $(".talk02").css({
+            "display":"block"
+        });
+    });
+    $(".talk02").click(function(){
+        $(".talk02").css({
+            "display":"none"
+        });
+    });
+</script>
