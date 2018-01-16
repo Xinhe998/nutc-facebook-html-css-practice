@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    background: rgb(233, 235, 238); 
+    
+}
+
+#wrap{
+    width: 100%;
+}
+
+#header{
+    width: 100%;
+    height: 50px;
+    background: #3b5998;
+    position: fixed;
+
+}
+
+#fb{
+    width: 35px;
+    height: 35px;
+    margin-top:10px;
+    margin-left: 100px;
+    position: fixed;
+}
+
+#search{
+    width: 400px;
+    position: relative;
+    left:150px;
+    top: 15px;
+}
+
+#home{
+    width:300px;
+    position: relative;
+    top: 15px;
+    left: 425px;
+}
+
+#left{
+    width: 20%;
+    padding-left: 90px;
+    position: fixed;
+    top:50px;
+    left:0;
+
+}
+#left img{
+    width:220px;
+    height: 750px;
+
+}
+
+#content{
+    width: 30%;
+    padding-left: 20px;
+    position: absolute;
+    left:20%;
+    top: 50px;
+    z-index:-1;
+
+}
+#content img{
+    width: 500px;
+}
+
+#right{
+    width: 20%;
+    position: relative;
+    left:55%;
+    top: 50px;
+    z-index:-1;
+}
+
+#right img{
+    width: 300px;
+}
+
+#chat{
+    width: 30%;
+    height:67%;
+    position: fixed;
+    margin-left: 80px;
+    left:80%;
+    top:50px;
+}
+#chat img{
+    width:200px;
+}
+
+#peo{
+
+    height: 100%;
+    overflow: auto;
+}
+
+#chatbox{
+    position: absolute;
+    right:480px;
+    top:370px;
+}
+
+#chatbox img{
+    width: 250px;
+}
+
+#chatbox.active {
+    animation-name: chatAnimate;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+#chatbox.close {
+    animation-name: chatAnimateclose;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes chatAnimate {
+    from {
+        bottom: 450px;
+    }
+    to {
+        top: 370px;
+    }
+  }
+  @keyframes chatAnimateclose {
+    from {
+        top: -700px;
+    }
+    to {
+        top: -500px;
+    }
+  }
