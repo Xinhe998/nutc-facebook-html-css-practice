@@ -69,3 +69,9 @@ body {
     right: 15px;
     position: fixed;
 }
+
+#dialog{
+    bottom: -5px;
+    right: 230px;
+    position: fixed;
+}
