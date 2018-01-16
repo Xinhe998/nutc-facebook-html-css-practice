@@ -1,0 +1,10 @@
+body {
+    margin: 0px;
+    background-color: #e9ebee;
+}
+
+#head{
+    width: auto;
+    height: auto;
+    position: fixed;
+}
