@@ -29,7 +29,7 @@ body {
     width: 100%;
     margin: 0%;
     padding: 0%;
-    top: 54px;
+    top: 49px;
     position: relative;
     z-index: 1;
 }
@@ -44,34 +44,36 @@ body {
 
 #contentL {
     width: 500px;
-    left: 350px;
+    left: 345px;
     position: absolute;
 }
 
 #contentR{
     width: 350px;
-    left: 870px;
+    left: 860px;
     position: absolute;
 }
 
 .imgL{
     width: 500px;
-    margin-top: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .imgR{
-    width: 350px;
-    margin-top: 15px;
+    width: 300px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 #friend{
     width: 200px;
-    right: 15px;
+    right: 10px;
     position: fixed;
 }
 
 #dialog{
     bottom: -5px;
-    right: 230px;
+    right: 225px;
     position: fixed;
 }
