@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>FaceBook</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <!-- <script type="text/JavaScript">
+    function img1() {
+        #chattingimg1.style.display ='hidden';
+        #chattingimg2.style.display ='visible';
+    }
+    function img2() {
+        #chattingimg1.style.display ='visible';
+        #chattingimg2.style.display ='hidden';
+    } -->
+    </script>
+</head>
+
+<body>
+    <div class="box">
+        <div class="header">
+            <a href="https://www.facebook.com/">
+                <img class="headerimg" src="assets/fb.png" alt="">
+            </a>
+            <img class="headerimg1" src="assets/header1.png" alt="">
+            <img class="headerimg2" src="assets/header2.png" alt="">
+        </div>
+        <div class="contain">
+            <div class="left">
+                <img class="leftimg" src="assets/left1.png" alt="">
+                <img class="leftimg" src="assets/left2.png" alt="">
+            </div>
+            <div class="body">
+                <img class="bodyimg" src="assets/body1.png" alt="">
+                <img class="bodyimg" src="assets/body2.png" alt="">
+                <img class="bodyimg" src="assets/body3.png" alt="">
+                <img class="bodyimg" src="assets/loading.gif" alt="">
+            </div>
+            <div class="right">
+                <img class="rightimg" src="assets/right1.png" alt="">
+                <img class="rightimg" src="assets/right2.png" alt="">
+                <img class="rightimg" src="assets/right3.png" alt="">
+            </div>
+            <div class="message">
+                <img class="img" src="assets/message.png" alt="">
+                <img class="img" src="assets/message3.png" alt="">
+            </div>
+            <div class="searchbox">
+                <img class="img" src="assets/message1.png" alt="">
+            </div>
+            <div class="chatting">
+                <img id="chattingimg1" class="chattingimg1" src="assets/chatting.png" alt="">
+                <img id="chattingimg2" class="chattingimg2" src="assets/chatting2.png" alt="">
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
+<script>
+    $("#chattingimg1").click(function () {
+        $("#chattingimg1").hide();
+        $("#chattingimg2").show();
+    });
+    $("#chattingimg2").click(function () {
+        $("#chattingimg2").hide();
+        $("#chattingimg1").show();
+    });
+</script>
