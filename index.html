@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Facebook</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/style.css" rel="stylesheet">
+    <script>
+        x=1;
+        function change(){
+            x++;
+            if(x%2==0){
+                document.getElementById("imagedialog").src="images/dialog_on.png";
+            }
+            else if(x%2==1){
+                document.getElementById("imagedialog").src="images/dialog_off.png";
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="all">
+        <div id="head">
+            <a href=""><img src="images/FB.png" width="30px" height="30px" id="imagefb"></a>
+            <img src="images/head.png" width="1000px">
+        </div>
+        <div id="content">
+            <div id="list">
+                <img src="images/list.png" width="190px">
+            </div>
+            <div id="contentL">
+                <div>
+                    <img src="images/L1.png" class="imgL">
+                </div>
+                <div>
+                    <img src="images/L2.png" class="imgL">
+                </div>
+                <div>
+                    <img src="images/L3.png" class="imgL">
+                </div>
+                <div>
+                    <img src="images/L4.png" class="imgL">
+                </div>
+                <div>
+                    <img src="images/L5.png" class="imgL">
+                </div>
+            </div>
+            <div id="contentR">
+                <div>
+                    <img src="images/R1.png" class="imgR">
+                </div>
+                <div>
+                    <img src="images/R2.png" class="imgR">
+                </div>
+                <div>
+                    <img src="images/R3.png" class="imgR">
+                </div>
+                <div>
+                    <img src="images/R4.png" class="imgR">
+                </div>
+                <div>
+                    <img src="images/R5.png" class="imgR">
+                </div>
+            </div>
+            <div id="friend">
+                <img src="images/friend.png" width="200px">
+            </div>
+            <div id="dialog">
+                <img src="images/dialog_off.png" id="imagedialog" onclick="change()">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
