@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+    <script>
+        var id = 1;
+
+        function next() {
+            if (id % 2 == 1) {
+                document.getElementById("img").src = 'assets/message-body.png';
+            } else {
+                document.getElementById("img").src = 'assets/message-head.png';
+            }
+            id++;
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <img class="nav-pic" src="assets/nav.png" alt="">
+            <a href="#"><img class="home-pic" src="assets/home.png" alt=""></a>
+        </div>
+        <div class="content">
+            <div class="content-left">
+                <img src="assets/left.png" alt="">
+            </div>
+            <div class="content-middle">
+                <img class="pic" src="assets/middle-top.png" alt="">
+                <img class="pic" src="assets/middle.png" alt="">
+                <img class="pic" src="assets/middle2.png" alt="">
+                <img class="pic" src="assets/loading.gif" alt="">
+                <img class="pic" src="assets/loading.gif" alt="">
+            </div>
+            <div class="content-right">
+                <img class="pic" src="assets/right-game.png" alt="">
+                <img class="pic" src="assets/right-donate.png" alt="">
+                <img class="pic" src="assets/right-footer.png" alt="">
+            </div>
+        </div>
+        <div class="friend">
+            <img src="assets/friend-game.png" alt="">
+            <div class="main">
+                <img class="middle-pic" src="assets/friend.png" alt="">
+            </div>
+            <img class="bottom-pic" src="assets/friend-bottom.png" alt="">
+        </div>
+        <div class="message">
+            <img id="img" src="assets/message-head.png" alt="" onclick="next()">
+        </div>
+    </div>
+</body>
+
+</html>
