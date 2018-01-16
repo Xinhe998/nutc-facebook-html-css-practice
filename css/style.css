@@ -22,14 +22,16 @@ body {
     height: 42px;
     background-color: #4267b2;
     position: fixed;
+    z-index: 2;
 }
 
 #content {
     width: 100%;
     margin: 0%;
     padding: 0%;
-    padding-top: 54px;
+    top: 54px;
     position: relative;
+    z-index: 1;
 }
 
 #list {
