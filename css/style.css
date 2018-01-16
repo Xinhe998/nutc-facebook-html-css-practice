@@ -90,16 +90,15 @@ body{
 }
 
 #peo{
+
     height: 100%;
     overflow: auto;
 }
 
-#chatbox{/* 
-    width: 20%; */
+#chatbox{
     position: absolute;
-    right:620px;
+    right:480px;
     top:370px;
-    overflow: hidden;
 }
 
 #chatbox img{
@@ -108,7 +107,7 @@ body{
 
 #chatbox.active {
     animation-name: chatAnimate;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
 }
 #chatbox.close {
