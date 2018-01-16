@@ -10,6 +10,7 @@ body{
     top: 0px;
     margin: 0px;
     background-color: #4267b2;
+    z-index: 1;
 }
 #fblogo{
     position: absolute;
@@ -80,6 +81,11 @@ body{
 .friend-img{
     width: 100%;
     margin: 0px;   
+}
+.search-img{
+    position: fixed;
+    margin: 0px;
+    bottom: 0px;
 }
 #message{
     position: fixed;
