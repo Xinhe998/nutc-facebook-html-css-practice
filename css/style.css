@@ -1,13 +1,11 @@
 body{
     margin: 0;
     background: rgb(233, 235, 238); 
+    
 }
 
 #wrap{
     width: 100%;
-    margin: 0 ;
-    /* overflow: hidden; */
-
 }
 
 #header{
@@ -81,7 +79,7 @@ body{
 
 #chat{
     width: 30%;
-    height: 480px;
+    height:67%;
     position: fixed;
     margin-left: 80px;
     left:80%;
@@ -96,11 +94,12 @@ body{
     overflow: auto;
 }
 
-#chatbox{
-    width: 20%;
+#chatbox{/* 
+    width: 20%; */
     position: absolute;
-    right:180px;
-    top:800px;
+    right:620px;
+    top:370px;
+    overflow: hidden;
 }
 
 #chatbox img{
@@ -120,25 +119,17 @@ body{
 
 @keyframes chatAnimate {
     from {
-      top:375px;
+        bottom: 450px;
     }
     to {
-      top: 425px;
+        top: 370px;
     }
   }
   @keyframes chatAnimateclose {
     from {
-      top:425px;
+        top: -700px;
     }
     to {
-     top: 375px;
+        top: -500px;
     }
   }
- /*  @keyframes msgAnimate {
-    from {
-      bottom: -220px;
-    }
-    to {
-      bottom: 0;
-    }
-  } */
