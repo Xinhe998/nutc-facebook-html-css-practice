@@ -1,0 +1,12 @@
+body{
+    margin: 0px;
+}
+header{
+    background-color: #4267b2;
+    margin: 0px;
+}
+header span.img{
+    color:#4267b2;
+    background-image: url(../assets/M8vgsAoxFEg.png);
+    background-repeat: no-repeat;
+}
