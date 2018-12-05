@@ -1,0 +1,303 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial,Microsoft JhengHei;
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+body{
+    font-size: 12px;
+    background-color: #EFEFEF;
+}
+.container{
+    width: 100%;
+}
+.header{
+    width: 80%;
+    height: 25px;
+    padding: 10px 10%;
+    background-color: #3B579D;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+.logo{
+    width: 5%;
+    float: left;
+    text-align: right;
+}
+.search{
+    widows: 40%;
+    float: left;
+}
+.logo img{
+    width: 25px;
+    height: auto;
+    border-radius: 2px;
+}
+.search input{
+    width: 400px;
+    height: 25px;
+    margin-left: 5px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border: none;
+    font-size: 1rem;
+    padding-left: 5px;
+    line-height: 25px;
+}
+.search button{
+    width: 50px;
+    height: 25px;
+    margin: 0px;
+    font-size: 1rem;
+    border: none;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    line-height: 25px;
+    background-color: #EEE;
+}
+.content{
+    width: 85%;
+    height: 100vh;
+    position: relative;
+    float: left;
+    background-color: #EFEFEF;
+}
+.chat{
+    width: 14.8%;
+    height: 100vh;
+    right: 0px;
+    background-color: #EFEFEF;
+    position: fixed;
+    float: left;
+    border-left: 1px #DDD solid;
+    overflow-y: scroll;
+    z-index: 1;
+}
+.profile{
+    width: 10%;
+    height: 100vh;
+    padding-left: 10%;
+    float: left;
+    overflow-y: scroll;
+    position: fixed;
+    left: 0px;
+    z-index: 1;
+    /* background-color: #777; */
+}
+.article{
+    width: 40%;
+    height: 100vh;
+    margin-left: 25%;
+    float: left;
+    /* overflow-y: scroll; */
+    position: absolute;
+    /* left: 20%; */
+    /* background-color: #FFF; */
+}
+.ad{
+    width: 20%;
+    height: 100vh;
+    padding-right: 5%;
+    float: left;
+    overflow-y: scroll;
+    position: fixed;
+    left: 60%;
+    
+    /* background-color: #777; */
+}
+.selfinfo{
+    height: 40px;
+    margin-top: 70px;
+    font-size: 0.9rem;
+}
+.selfinfo img{
+    width: 20px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 50%;
+    line-height: 20px;
+}
+.option{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 0.9rem;
+    float: left;
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.part{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 0.9rem;
+    float: left;
+    color: #666;
+}
+.new{
+    width: 94.5%;
+    height: 170px;
+    margin: 70px 2.5% 20px 2.5%;
+    border: 1px #DDD solid;
+    border-radius: 5px;
+    background-color: #FFF;
+}
+.newtitle{
+    width: 95%;
+    padding: 5px 2.5%;
+    font-size: 0.9rem;
+    background-color: #EFEFEF;
+}
+.newtitle span{
+    margin-right: 5px ;
+}
+.new img{
+    width: 40px;
+    height: auto;
+    margin: 15px;
+    overflow: hidden;
+    border-radius: 50%;
+    line-height: 20px;
+}
+.new textarea{
+    width: 80%;
+    border: none;
+    font-size: 1rem;
+    resize: none;
+}
+.new hr{
+    width: 90%;
+    height: 1px;
+    margin: 10px auto;
+    background-color: #DDD;
+    border: none;
+}
+.new button{
+    margin: 5px 15px;
+    padding: 5px 20px;
+    background-color: #EEE;
+    border: none;
+    border-radius: 35%;
+    font-size: 0.9rem;
+}
+.per{
+    width: 94.5%;
+    margin: 20px 2.5%;
+    border: 1px #DDD solid;
+    border-radius: 5px;
+    background-color: #FFF;
+}
+.per img{
+    width: 40px;
+    height: auto;
+    margin: 15px 15px 0px 15px;
+    overflow: hidden;
+    border-radius: 50%;
+    line-height: 20px;
+    float: left;
+}
+.word{
+    width: 90%;
+    margin: 0px auto 15px auto;
+    clear: both;
+    word-wrap: break-word;
+    font-size: 0.9rem;
+}
+.status{
+    width: 80%;
+    margin: 70px 0px;
+    padding: 15px 0px;
+    border: 1px #DDD solid;
+    border-radius: 5px;
+    background-color: #FFF;
+    font-size: 0.9rem;
+    color: #777;
+    float: left;
+}
+.status span{
+    margin: 15px;
+}
+.perstatus img{
+    width: 50px;
+    height: auto;
+    margin: 15px 0px 0px 15px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px #3B579D solid;
+    line-height: 20px;
+    float: left;
+}
+.perstatus{
+    clear: both;
+}
+.time{
+    margin: 15px 5px 0px 5px;
+    float: left;
+    font-size: 0.9rem;
+    color: #777;
+}
+.name{
+    color: #3B579D;
+    font-weight: bolder;
+}
+.searchchat{
+    width: 14.8%;
+    height: 30px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background-color: #FFF; 
+    font-size: 0.9rem;
+}
+.searchchat input{
+    width: 95%;
+    padding: 0px 2.5%;
+    height: 30px;
+    background-color: #FFF;
+    border: none; 
+    font-size: 0.9rem;
+}
+.first{
+    margin: 50px 
+}
+.person{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    font-size: 0.9rem;
+    float: left;
+}
+.first{
+    margin-top: 50px 
+}
+.person img{
+    width: 30px;
+    height: auto;
+    margin: 15px 10px 5px 15px;
+    overflow: hidden;
+    border-radius: 50%;
+    line-height: 20px;
+    float: left;
+}
+.contact{
+    height: 30px;
+    line-height: 30px;
+    color:#000;
+}
+.dot{
+    margin: 15px 0px 0px 60px;
+    /* position: relative; */
+    height: 30px;
+    line-height: 30px;
+    font-size: 2.5rem;
+    color: #00CC00;
+    float: left;
+}
