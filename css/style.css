@@ -1,0 +1,44 @@
+.container{
+    position: relative;
+    width: 1500px;
+    height: 1000px;
+    margin: 0px;
+}
+.top{
+    position: fixed;
+    width: 100%;
+    height: 56px;
+    left: 0;
+}
+.top img{
+    width: 1550px;
+}
+.left{
+    position: fixed;
+    width: 300px;
+    height: 842px;
+    top:56px;
+    left: 0;
+}
+.left img{
+    width: 100%;
+}
+.right{
+    position: fixed;
+    width: 260px;
+    height: 842px;
+    left:1285px;
+    top:56px;
+}
+.right img{
+    width: 90%;
+    height: 79%;
+    
+}
+.content{
+    position: absolute;
+    left: 300px;
+    top:56px;
+    width: 600px;
+    height: 100%;
+}
