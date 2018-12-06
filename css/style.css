@@ -1,10 +1,21 @@
 body{
     margin: 0px;
+    background-color: rgb(233, 235, 238);
 }
 div {
-    margin: 0px;
-    border: 0px;
+    
+    margin: -0.5px 0px -7px -0.5px;
+    padding: 0px;
 }
-#top img {
+#top {
+    position: fixed;
+}
+img {
     width: 100%;
 }
+
+#meanuleft {
+    width: 319px;
+    padding: 43px 0px 0px 0px;
+}
+
