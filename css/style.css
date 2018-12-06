@@ -1,0 +1,66 @@
+.container{
+    position: relative;
+    width: 1500px;
+    height: 2500px;
+    margin: 0px;
+    background-color: #E9EBEE;
+}
+.top{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    
+}
+.top img{
+    width: 1550px;
+}
+.left{
+    position: fixed;
+    width: 300px;
+    height: 842px;
+    top:47px;
+    left: 0;
+}
+.left img{
+    width: 100%;
+}
+.right{
+    position: fixed;
+    width: 260px;
+    height: 842px;
+    left:1285px;
+    top:47px;
+}
+.right img{
+    width: 90%;
+    height: 80%;
+    
+}
+.content{
+    position: absolute;
+    left: 300px;
+    top:47px;
+    width: 560px;
+    height: 100%;
+}
+
+.mypost img{
+    width: 550px;
+}
+.post img{
+    width: 550px;
+    margin-top:10px;  
+}
+.content-right{
+    position: absolute;
+    left: 860px;
+    top:47px;
+    width: 350px;
+    height: 100%;
+}
+.Rpost img{
+    width: 330px;
+    margin-bottom:5px; 
+}
