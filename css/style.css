@@ -37,3 +37,9 @@ img {
     width: 450px;
     margin: -2978px 150px 0px 830px;
 }
+
+#talk {
+    width: 206px;
+    position: fixed;
+    margin: -700px 0px 0px 1276px;
+}
