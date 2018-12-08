@@ -30,5 +30,10 @@ img {
 }
 .main img {
     width: 520px;
-    margin: -5px 150px 0px 0px; 
+    margin: -5px 0px 0px 0px; 
+}
+
+#meanuright {
+    width: 450px;
+    margin: -2978px 150px 0px 830px;
 }
