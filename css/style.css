@@ -2,13 +2,20 @@ body{
     background-color: #e9ebee;
     margin: 0px;
 }
+*{
+    font-family: inherit;
+    font-size: 13px;
+}
 header{
     text-align: center;
     height: 35px;
+    width: 100%;
     background-color: #4267b2;
     padding-top:0.5%; 
 }
 header .size .img{
+    position: relative;
+    z-index: 1;
     color:#365899;
     height: 27px;
     width: 27px;
@@ -19,15 +26,17 @@ header .size .img{
     margin-left: -5%;
 }
 header .size{
-    border-radius: 3px;
-    margin-left: 11.35%;
+    border-radius: 2px;
+    margin-left: 9.78%;
+    margin-right: 3px;
     height:25px;
     width: 27px;
     overflow: hidden;
+    float: left;
 }
 header .img span{
-    width: 24px;
-    height: 24px;
+    width: 25px;
+    height: 25px;
     padding: 0px;
     border:0px;
     margin:200%;
@@ -36,11 +45,62 @@ header .img span{
 .main{
     padding-right: 205px; 
 }
-.mark{
-    width: 24px;
-    height: 24px;
-    background-clip: #365899;
+.mask{
+    border-radius: 3px;
+    position: absolute;
+    z-index: 2;
+    top:3%;
+    left:3%;
+    width: 25px;
+    height: 25px;
+    background-color: rgba(54, 88, 153, 0.08);
+    opacity: 0;
 }
-.mark:hover{
-    background-color: rgba(0, 0, 0, 0.1);
+.img:hover .mask{
+    opacity: 1;
+}
+.search{
+    width:60%;
+}
+.search form{
+    width: 100%;
+}
+.search form *:not(.search_icon){
+    height: 24px;
+    float: left;
+}
+.search input{
+    padding-left: 12px;
+    border:0px;
+    width:44%;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.submit{
+    background-color: rgb(245, 246, 247);
+    border: 0px;
+    width:44px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    cursor: pointer;
+    margin-left: 0%;
+}
+.submit:hover{
+    background-color: #ebedf0;
+}
+.search_icon{
+    width: 23px;
+    height: 20000px;
+    background-image: url(../assets/M8vgsAoxFEg.png);
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-top: -2266px;
+}
+.search_icon_show{
+    width: 44px;
+    height: 24px;
+    overflow: hidden;
+    position: relative;
+    top:0%;
+    left:-5px;
 }
