@@ -18,4 +18,17 @@ img {
     width: 319px;
     padding: 43px 0px 0px 0px;
 }
+#maintop {
+    width: 518px;
+    position: fixed;
+    margin: -663px 150px 0px 315px;
+}
 
+.main{
+    width: 520px;
+    margin: -497px 150px 0px 312px;
+}
+.main img {
+    width: 520px;
+    margin: -5px 150px 0px 0px; 
+}
