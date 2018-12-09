@@ -20,12 +20,16 @@
         </div>
         <div class="search">
             <form>
-                <input type="search" placeholder="搜尋" />
-                <button class="submit">
-                    <div class="search_icon_show"><div class="search_icon"></div></div>
+                <input list="search_list" type="search" placeholder="搜尋" />
+                <datalist id="search_list">
+                    <option value="123"/>
+                </datalist>
+                <button class="submit" clidked="submit_active">
+                    <div class="search_icon_show"><div class="search_icon"  clidked="search_icon_active"></div></div>
                 </button>
             </form>
         </div>
     </header>
 </body>
+<script src="js/script.js"></script>
 </html>
