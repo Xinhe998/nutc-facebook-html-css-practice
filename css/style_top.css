@@ -2,7 +2,8 @@
 body{
     margin:0px 0px 0px 0px;
     padding:0px 0px 0px 0px;
-    background-color:#DDDDDD;
+    background-color:#eaebef;
+    font-family:微軟正黑體;
 }
 /* HTML TOP DIV */
 #top{
@@ -12,6 +13,7 @@ body{
     width:100vw;
     height:40px;
     background-color:#4267b2;
+    z-index:100;
 }
 /* TOP_LOGO */
 #top_logo{
