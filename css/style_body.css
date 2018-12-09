@@ -1,0 +1,23 @@
+#body{
+    padding:0px 0px 0px 0px;
+    margin:40px 0px 0px 0px;
+    width:99vw;
+    overflow-y:auto;
+    overflow-x:none;
+}
+#body_message{
+    display:inline;
+    position:fixed;
+    border-left:1px solid #AAAAAA;
+    top:40px;
+    right:0px;
+    width:200px;
+    height:100vh;
+    padding-top:15px;
+    overflow-y:auto;
+}
+#body_message_bottom{
+    position:fixed;
+
+    top:97vh;
+}
