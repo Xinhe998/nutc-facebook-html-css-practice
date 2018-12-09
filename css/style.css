@@ -20,17 +20,21 @@ body {
 
 .content {
     display: inline-block;
+    position: fixed;
 }
 
-.content_tem {
+.scroll {}
+
+.img_tem {
     position: fixed;
-    overflow: auto;
+    overflow-y: scroll;
 }
 
 .LeftBar {
     margin-left: 4%;
     margin-top: 1%;
     width: 13%;
+    overflow-y: scroll;
 }
 
 .CenterBar {
@@ -46,7 +50,6 @@ body {
 }
 
 .RightBar2 {
-    margin-top: -1%;
     margin-left: 83%;
     width: 14%;
     height: 100;
