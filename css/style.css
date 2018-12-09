@@ -1,0 +1,678 @@
+body{
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+.wrap{
+    width: 100%;
+    background: #FFF;
+}
+
+.header-wrap{
+    position: absolute;
+    top: 0;
+    height: 42px;
+    width: 100%;
+}
+
+.header-wrap .header{
+    height: inherit;
+    width: inherit;
+    position: fixed;
+    background: rgba(66, 103, 178, 1);
+}
+
+.header-wrap .header .header-content{
+    height: inherit;
+    width: 1012px;
+    margin: 0 0 0 5%;
+}
+
+.header-wrap .header .header-content .logo{
+    width: 31px;
+    height: inherit;
+    float: left;
+}
+
+.header-wrap .header .header-content .logo img{
+    width: 24px;
+    height: 24px;
+    margin: 9px 0 0 0;
+}
+
+.header-wrap .header .header-content .inputbox{
+    width: 65%;
+    height: inherit;
+    float: left;
+}
+
+.header-wrap .header .header-content .inputbox input{
+    height: 22px;
+    width: 60%;
+    margin: 9px 0 0 0;
+    padding: 1px 0 1px 5px;
+    border: #666 0.5px solid;
+    border-right: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    float: left;
+}
+
+.header-wrap .header .header-content .inputbox .researchbtn{
+    height: 25px;
+    width: 46px;
+    margin: 9px 0 0 0;
+    padding: 0;
+    border: #666 0.5px solid;
+    border-left: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    float: left;
+}
+
+.header-wrap .header .header-content .inputbox .researchbtn img{
+    height: 16px;
+    width: 16px;
+    margin: 2px 0 0 0;
+}
+
+.header-wrap .header .header-content .my{
+    width: 80px;
+    height: 24px;
+    margin: 9px 0 0 0;
+    padding: 0 0 0 4px;
+    border-right: #999 0.5px solid;
+    float: left;
+}
+
+.header-wrap .header .header-content .my a{
+    font-size: 14px;
+    color: #FFF;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.header-wrap .header .header-content .my:hover{
+    background: rgba(29, 59, 131, 1)
+}
+
+.header-wrap .header .header-content .my a .namepic{
+    width: 24px;
+    height: 24px;
+    float: left;
+}
+
+.header-wrap .header .header-content .my a .namepic img{
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+}
+
+.header-wrap .header .header-content .my a .name{
+    height: 24px;
+    line-height: 24px;
+    padding: 0 0 0 5px;
+    float: left;
+}
+
+.header-wrap .header .header-content .home{
+    height: 24px;
+    line-height: 24px;
+    margin: 8px 0 0 0;
+    float: left;
+}
+
+.header-wrap .header .header-content .home:hover{
+    background: rgba(29, 59, 131, 1)
+}
+
+.header-wrap .header .header-content .home a{
+    font-size: 14px;
+    color: #FFF;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.header-wrap .header .header-content .home a .homelink{
+    height: 24px;
+    line-height: 24px;
+    padding: 0 10px;
+}
+
+.header-wrap .header .header-content .btn{
+    height: 42px;
+    float: left;
+}
+
+.header-wrap .header .header-content .btn .btnnum{
+    float: left;
+}
+
+.header-wrap .header .header-content .btn .friends{
+    height: 42px;
+    width: 30px;
+    line-height: 42px;
+    background: url(../images/friends.png);
+    background-repeat: no-repeat; 
+    background-position: center center;
+    display: block;
+}
+
+.header-wrap .header .header-content .btn .friends:hover{
+    background: url(../images/friends2.png);
+    background-repeat: no-repeat; 
+    background-position: center center;
+    display: block;
+}
+
+.header-wrap .header .header-content .btn .messages{
+    height: 42px;
+    width: 30px;
+    line-height: 42px;
+    background: url(../images/messages.png);
+    background-repeat: no-repeat; 
+    background-position: center center;
+    display: block;
+}
+
+.header-wrap .header .header-content .btn .messages:hover{
+    background: url(../images/messages2.png);
+    background-repeat: no-repeat; 
+    background-position: center center;
+    display: block;
+}
+
+.header-wrap .header .header-content .btn .notice{
+    height: 42px;
+    width: 30px;
+    line-height: 42px;
+    background: url(../images/notice.png);
+    background-repeat: no-repeat; 
+    background-position: center center;
+    display: block;
+}
+
+.header-wrap .header .header-content .btn .notice:hover{
+    background: url(../images/notice2.png);
+    background-repeat: no-repeat; 
+    background-position: center center;
+}
+
+.header-wrap .header .header-content .helplist{
+    margin: 0 0 0 40px;
+    height: 42px;
+    float: left;
+}
+
+.header-wrap .header .header-content .helplist .helplistnum{
+    float: left;
+}
+
+.header-wrap .header .header-content .helplist .help{
+    height: 42px;
+    width: 30px;
+    line-height: 42px;
+    background: url(../images/help.png);
+    background-repeat: no-repeat; 
+    background-position: center center;
+    display: block;
+}
+
+.header-wrap .header .header-content .helplist .list{
+    height: 42px;
+    width: 30px;
+    line-height: 42px;
+    background: url(../images/list.png);
+    background-repeat: no-repeat; 
+    background-position: center center;
+    display: block;
+}
+
+
+
+.wrap .content-wrap{
+    width: inherit;
+    height: 2000px;
+    padding: 12px 0 0 0;
+    background: rgba(233, 235, 238, 1);
+    position: relative;
+}
+
+
+
+.wrap .content-wrap .content-left{
+    width: 175px;
+    padding: 0 0 0 5px;
+    position: absolute;
+    top: 54px;
+    left: 65px;
+}
+
+.wrap .content-wrap .content-left .personal{
+    width: inherit;
+    margin: 0 0 10px 0;
+}
+
+.wrap .content-wrap .content-left .personal a{
+    color: #000;
+    text-decoration: none;
+}
+
+.wrap .content-wrap .content-left .personal .my{
+    height: 28px;
+    width: inherit;
+    margin: 0 0 10px 0;
+}
+
+.wrap .content-wrap .content-left .personal .my:hover{
+    background: rgb(246, 247, 249);
+}
+
+.wrap .content-wrap .content-left .personal .my .point{
+    width: 28px;
+    height: 28px;
+    background: url(../images/point.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    float: right;
+    display: none;
+}
+
+.wrap .content-wrap .content-left .personal .my:hover .point{
+    display: block;
+}
+
+.wrap .content-wrap .content-left .personal .my .mypic{
+    height: inherit;
+    line-height: 28px;
+    float: left;
+}
+
+.wrap .content-wrap .content-left .personal .my .mypic img{
+    height: 20px;
+    width: 20px;
+    margin: 4px 0 0 0;
+    border-radius: 100%;
+}
+
+.wrap .content-wrap .content-left .personal .my .myname{
+    height: inherit;
+    font-size: 14px;
+    line-height: 28px;
+    margin: 0 0 0 5px;
+    float: left;
+}
+
+.wrap .content-wrap .content-left .personal .news{
+    height: 28px;
+    width: inherit;
+    margin: 0 0 1px 0;
+}
+
+.wrap .content-wrap .content-left .personal .news:hover{
+    background: rgb(246, 247, 249);
+}
+
+.wrap .content-wrap .content-left .personal .news .point{
+    width: 28px;
+    height: 28px;
+    background: url(../images/point.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    float: right;
+    display: none;
+}
+
+.wrap .content-wrap .content-left .personal .news:hover .point{
+    display: block;
+}
+
+.wrap .content-wrap .content-left .personal .news .newspic{
+    height: inherit;
+    line-height: 28px;
+    float: left;
+}
+
+.wrap .content-wrap .content-left .personal .news .newspic img{
+    height: 20px;
+    width: 20px;
+    margin: 4px 0 0 0;
+    border-radius: 100%;
+}
+
+.wrap .content-wrap .content-left .personal .news .newstext{
+    height: inherit;
+    font-size: 14px;
+    line-height: 28px;
+    margin: 0 0 0 5px;
+    float: left;
+}
+
+.wrap .content-wrap .content-left .personal .messages{
+    height: 28px;
+    width: inherit;
+}
+
+.wrap .content-wrap .content-left .personal .messages:hover{
+    background: rgb(246, 247, 249);
+}
+
+.wrap .content-wrap .content-left .personal .messages .messagespic{
+    height: inherit;
+    line-height: 28px;
+    float: left;
+}
+
+.wrap .content-wrap .content-left .personal .messages .messagespic img{
+    height: 20px;
+    width: 20px;
+    margin: 4px 0 0 0;
+    border-radius: 100%;
+}
+
+.wrap .content-wrap .content-left .personal .messages .messagestext{
+    height: inherit;
+    font-size: 14px;
+    line-height: 28px;
+    margin: 0 0 0 5px;
+    float: left;
+}
+
+.wrap .content-wrap .content-left .personal .club{
+    height: 28px;
+    width: inherit;
+}
+
+.wrap .content-wrap .content-left .personal .club:hover{
+    background: rgb(246, 247, 249);
+}
+
+.wrap .content-wrap .content-left .personal .club .clubpic{
+    height: inherit;
+    line-height: 28px;
+    float: left;
+}
+
+.wrap .content-wrap .content-left .personal .club .clubpic img{
+    height: 20px;
+    width: 20px;
+    margin: 4px 0 0 0;
+    border-radius: 100%;
+}
+
+.wrap .content-wrap .content-left .personal .club .clubtext{
+    height: inherit;
+    font-size: 14px;
+    line-height: 28px;
+    margin: 0 0 0 5px;
+    float: left;
+}
+
+
+
+.wrap .content-wrap .content-left .fans{
+    width: inherit;
+    font-size: 14px;
+    margin: 0 0 10px 0;
+}
+
+.wrap .content-wrap .content-left .fans:hover .text .edit{
+    display: block;
+}
+
+.wrap .content-wrap .content-left .fans .text{
+    width: inherit;
+}
+
+.wrap .content-wrap .content-left .fans .text .edit{
+    float: right;
+    display: none;
+}
+
+.wrap .content-wrap .content-left .fans .text .edit a:visited{
+    color: blue;
+}
+
+.wrap .content-wrap .content-left .fans ul{
+    width: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.wrap .content-wrap .content-left .fans ul li{
+    width: inherit;
+    height: 30px;
+    list-style: none;
+}
+
+.wrap .content-wrap .content-left .fans ul li:hover .point{
+    display: block;
+}
+
+.wrap .content-wrap .content-left .fans ul li .point{
+    width: 17px;
+    height: 28px;
+    background: url(../images/point.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    float: right;
+    display: none;
+}
+
+
+
+.wrap .content-wrap .content-left .clubs{
+    width: inherit;
+    font-size: 14px;
+    margin: 0 0 10px 0;
+}
+
+.wrap .content-wrap .content-left .clubs ul{
+    width: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.wrap .content-wrap .content-left .clubs ul li{
+    width: inherit;
+    list-style: none;
+}
+
+.wrap .content-wrap .content-left .set{
+    width: inherit;
+    font-size: 14px;
+}
+
+.wrap .content-wrap .content-left .set a{
+    color: blue;
+    text-decoration: none;
+}
+
+
+
+.wrap .content-wrap .content-center{
+    width: 500px;
+    margin: 0 12px;
+    position: absolute;
+    top: 54px;
+    left: 250px;
+}
+
+.wrap .content-wrap .content-center .release{
+    width: inherit;
+    background: #FFF;
+}
+
+.wrap .content-wrap .content-center .release .releasebtn{
+    width: inherit;
+    height: 17px;
+    padding: 8px 0;
+    background: rgb(246, 247, 249);
+
+}
+
+.wrap .content-wrap .content-center .release .enter{
+    width: inherit;
+}
+
+.wrap .content-wrap .content-center .release .enter .enterpic{
+    width: 52px;
+    height: 52px;
+    float: left;
+}
+
+.wrap .content-wrap .content-center .release .enter .enterpic img{
+    width: 40px;
+    height: 40px;
+    margin: 12px 0 0 12px;
+    border-radius: 100%;
+}
+
+.wrap .content-wrap .content-center .release .enter .entertext{
+    width: 424px;
+    height: 39px;
+    padding: 18px 12px 14px 12px;
+    float: left;
+}
+
+.wrap .content-wrap .content-center .release .enter .entertext input{
+    width: 424px;
+    height: 39px;
+    padding: 0;
+    border: none;
+}
+
+.wrap .content-wrap .content-center .release .other{
+    width: 476px;
+    height: 32px;
+    margin: 0 12px;
+    padding: 8px 0;
+    border-top: #AAA 0.5px solid;
+}
+
+.wrap .content-wrap .content-center .release .other ul{
+    margin: 0;
+    padding: 0;
+}
+
+.wrap .content-wrap .content-center .release .other ul li{
+    list-style: none;
+    margin: 0 10px;
+    float: left;
+}
+
+.wrap .content-wrap .content-center .cont01{
+    width: 500px;
+    margin: 12px 0 0 0;
+}
+
+.wrap .content-wrap .content-center .cont02{
+    width: 500px;
+    margin: 12px 0 0 0;
+}
+
+.wrap .content-wrap .content-center .cont03{
+    width: 500px;
+    margin: 12px 0 0 0;
+}
+
+.wrap .content-wrap .content-center .cont03 img{
+    width: 500px;
+}
+
+
+
+.wrap .content-wrap .content-right{
+    width: 308px;
+    position: absolute;
+    left: 780px;
+    top: 54px;
+}
+
+.wrap .content-wrap .content-right .adwrap{
+    background: #FFF;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 0 10px 0;
+}
+
+.wrap .content-wrap .content-right .adwrap a{
+    color: blue;
+    text-decoration: none;
+}
+
+.wrap .content-wrap .content-right .adwrap img{
+    width: 288px;
+    margin: 10px 0 0 0;
+}
+
+.wrap .content-wrap .content-right .language{
+    background: #FFF;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 0 10px 0;
+}
+
+
+
+.wrap .content-wrap .message{
+    width: 205px;
+    height: 100%;
+    border-left: rgb(204, 204, 204) solid 1px;
+    position: fixed;
+    top: 42px;
+    right: 0;
+    background: rgba(233, 235, 238, 1);
+    overflow-y: auto;
+}
+
+.wrap .content-wrap .message ul{
+    width: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.wrap .content-wrap .message ul li{
+    list-style: none;
+}
+
+.wrap .content-wrap .message .text{
+    padding: 0 0 0 5px;
+    margin: 5px 0;
+    font-size: 12px;
+}
+
+.wrap .content-wrap .message .personsearchwrap{
+    width: inherit;
+    height: 30px;
+}
+
+.wrap .content-wrap .message .personsearchwrap .personsearch{
+    width: inherit;
+    height: inherit;
+    position: fixed;
+    bottom: 0px;
+}
+
+
+
+.talk01{
+    width: 162px;
+    height: 28px;
+    position: fixed;
+    bottom: 0;
+    right: 226px;
+    background: url('../images/talk01.png');
+}
+
+.talk02{
+    width: 260px;
+    height: 333px;
+    position: fixed;
+    bottom: 0;
+    right: 226px;
+    display: none;
+}
