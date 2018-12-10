@@ -206,6 +206,7 @@ header .img span{
 }
 .chatroom_title_show{
     background-color: rgb(64, 128, 255);
+    color:rgb(255,255,255);
 }
 .chatroom_title_close{
     background-color: rgb(245, 246, 247);
