@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background:#e9ebee;
+}
+.head{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    z-index: 20;
+}
+.head img{
+    margin: 0;
+    height: 45px;
+}
+.wrapper{
+    margin: 0;
+    position: relative;
+    background:#e9ebee;
+    width: 100%;
+    height: 100vh;
+}
+.side-bar{
+    margin: 0;
+    position: fixed;
+    background: rgba(0, 0, 0, 0);
+}
+.content{
+    position: absolute;
+    background: rgba(0, 0, 0, 0);
+    top: 45px;
+    left: 531px;
+    width: 500px;
+    min-height: 100%vh;
+}
+.content img{
+    margin-top: 5px;
+    width: 500px;
+}
+.content_right{
+    position: fixed;
+    width: 308px;
+    top: 50px;
+    left:1040px;
+    z-index: 5;
+}
+.chat{
+    position: relative;
+    float: right;
+    top: 45px;
+    width: 206px;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0);
+}
+.chatroom{
+    width: 100%;
+    height:100vh;
+    position: fixed;
+    border-left:1px solid #ccc;
+}
+.chat-top{
+    border-bottom: #ccc 1px solid;
+}
+.chater{
+    position:absolute;
+    overflow-y: scroll;
+}
+@media screen and (max-width:1500px){
+    .chat{
+        opacity: 0;
+    }
+}
