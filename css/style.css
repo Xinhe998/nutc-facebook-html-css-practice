@@ -20,13 +20,13 @@ img {
 }
 #maintop {
     width: 518px;
-    position: fixed;
-    margin: -663px 150px 0px 315px;
+    
+    margin: -675px 150px 0px 315px;
 }
 
 .main{
     width: 520px;
-    margin: -497px 150px 0px 312px;
+    margin: -665px 150px 0px 312px;
 }
 .main img {
     width: 520px;
@@ -41,5 +41,5 @@ img {
 #talk {
     width: 206px;
     position: fixed;
-    margin: -700px 0px 0px 1276px;
+    margin: -701px 0px 0px 1276px;
 }
