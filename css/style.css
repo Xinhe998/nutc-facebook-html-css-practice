@@ -199,6 +199,7 @@ header .img span{
     overflow: hidden;
     height: 26px;
     line-height: 26px;
+    cursor: pointer;
 }
 .chatroom_title span{
     margin-left: 5px;
