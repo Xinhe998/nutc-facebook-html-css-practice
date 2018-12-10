@@ -69,3 +69,8 @@ body{
     position:absolute;
     overflow-y: scroll;
 }
+@media screen and (max-width:1500px){
+    .chat{
+        opacity: 0;
+    }
+}
