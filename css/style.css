@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    background-color: rgb(233, 235, 238);
+}
+div {
+    
+    margin: -0.5px 0px -7px -0.5px;
+    padding: 0px;
+}
+#top {
+    position: fixed;
+}
+img {
+    width: 100%;
+}
+
+#meanuleft {
+    width: 319px;
+    padding: 43px 0px 0px 0px;
+}
+#maintop {
+    width: 518px;
+    
+    margin: -675px 150px 0px 315px;
+}
+
+.main{
+    width: 520px;
+    margin: -665px 150px 0px 312px;
+}
+.main img {
+    width: 520px;
+    margin: -5px 0px 0px 0px; 
+}
+
+#meanuright {
+    width: 450px;
+    margin: -2978px 150px 0px 830px;
+}
+
+#talk {
+    width: 206px;
+    position: fixed;
+    margin: -701px 0px 0px 1276px;
+}
