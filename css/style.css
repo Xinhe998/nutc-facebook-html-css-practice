@@ -10,6 +10,9 @@ body {
 .header {
     background-color: #4267B2;
     width: auto;
+    z-index: 1;
+    position: fixed;
+    top: 0;
 }
 
 .header>img {
@@ -18,39 +21,62 @@ body {
     margin-left: 5%;
 }
 
-.content {
-    display: inline-block;
-    position: fixed;
-}
-
-.scroll {}
-
-.img_tem {
-    position: fixed;
-    overflow-y: scroll;
-}
-
 .LeftBar {
-    margin-left: 4%;
-    margin-top: 1%;
-    width: 13%;
+    left: 6%;
+    top: 0;
+    width: 15%;
+    position: fixed;
+    height: 100%;
     overflow-y: scroll;
+    z-index: 0;
+}
+
+.LeftBar>img {
+    width: 100%;
+    margin-top: 35%;
 }
 
 .CenterBar {
-    margin-left: 21%;
-    width: 35%;
-    margin-top: 1%;
+    left: 25%;
+    top: 0;
+    width: 30%;
+    position: fixed;
+    height: 100%;
+    overflow-y: scroll;
+    z-index: 0;
+}
+
+.CenterBar>img {
+    width: 100%;
+    margin-top: 15%;
 }
 
 .RightBar1 {
-    margin-top: 0.7%;
-    margin-left: 58%;
-    width: 23%;
+    left: 57%;
+    top: 0;
+    width: 25%;
+    position: fixed;
+    height: 100%;
+    overflow-y: scroll;
+    z-index: 0;
+}
+
+.RightBar1>img {
+    width: 100%;
+    margin-top: 18%;
 }
 
 .RightBar2 {
-    margin-left: 83%;
-    width: 14%;
-    height: 100;
+    left: 85%;
+    top: 0;
+    width: 15%;
+    position: fixed;
+    height: 100%;
+    overflow-y: scroll;
+    z-index: 0;
+}
+
+.RightBar2>img {
+    width: 100%;
+    margin-top: 24%;
 }
