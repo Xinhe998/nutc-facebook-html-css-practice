@@ -22,7 +22,7 @@
 #body_left{
     position:fixed;
     display:inline;
-    margin-left:20%;
+    margin-left:120px;
     padding-top:15px;
 }
 #down{
@@ -45,7 +45,7 @@
     position:absolute;
     display:inline;
     height:100vh;
-    margin-left:31%;
+    margin-left:320px;
     padding-top:15px;
     width:500px;
     z-index:1;
@@ -208,7 +208,7 @@ textarea{
 }
 #body_right{
     margin-top:15px;
-    margin-left:60%;
+    margin-left:840px;
     position:absolute;
     display:inline;
     width:25vh;
