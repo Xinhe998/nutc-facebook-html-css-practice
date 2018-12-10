@@ -1,6 +1,7 @@
 body{
     background-color: #e9ebee;
     margin: 0px;
+    overflow-x: hidden;
 }
 *{
     font-family: inherit;
@@ -167,4 +168,44 @@ header .img span{
     box-shadow:inset -2px 0px 0px 0px rgba(0,0,0,0.1);
     border-left: 5px;
     float: left;
+}
+.chatroom{
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    box-shadow:0px 0px 1.5px rgba(0,0,0,0.5);
+    position: Fixed;
+    overflow: hidden;
+    overflow-y: auto;
+    bottom: 0px;
+    right: 250px;
+}
+.chatroom_show{
+    height: 334px;
+    width: 284px;
+    background-color: rgb(255,255,255);
+}
+.chatroom_close{
+    height: 29.600px;
+    width: 177px;
+    background-color: rgb(245, 246, 247);
+    box-shadow: none;
+    overflow: hidden
+}
+.chatroom_title{
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    position: relative;
+    top:0%;
+    overflow: hidden;
+    height: 26px;
+    line-height: 26px;
+}
+.chatroom_title span{
+    margin-left: 5px;
+}
+.chatroom_title_show{
+    background-color: rgb(64, 128, 255);
+}
+.chatroom_title_close{
+    background-color: rgb(245, 246, 247);
 }
