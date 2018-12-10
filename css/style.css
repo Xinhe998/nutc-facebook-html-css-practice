@@ -1,0 +1,82 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background-color: #E9EBEE;
+}
+
+.header {
+    background-color: #4267B2;
+    width: auto;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+}
+
+.header>img {
+    width: 90%;
+    height: 4%;
+    margin-left: 5%;
+}
+
+.LeftBar {
+    left: 6%;
+    top: 0;
+    width: 15%;
+    position: fixed;
+    height: 100%;
+    overflow-y: scroll;
+    z-index: 0;
+}
+
+.LeftBar>img {
+    width: 100%;
+    margin-top: 35%;
+}
+
+.CenterBar {
+    left: 25%;
+    top: 0;
+    width: 30%;
+    position: fixed;
+    height: 100%;
+    overflow-y: scroll;
+    z-index: 0;
+}
+
+.CenterBar>img {
+    width: 100%;
+    margin-top: 15%;
+}
+
+.RightBar1 {
+    left: 57%;
+    top: 0;
+    width: 25%;
+    position: fixed;
+    height: 100%;
+    overflow-y: scroll;
+    z-index: 0;
+}
+
+.RightBar1>img {
+    width: 100%;
+    margin-top: 18%;
+}
+
+.RightBar2 {
+    left: 85%;
+    top: 0;
+    width: 15%;
+    position: fixed;
+    height: 100%;
+    overflow-y: scroll;
+    z-index: 0;
+}
+
+.RightBar2>img {
+    width: 100%;
+    margin-top: 24%;
+}
